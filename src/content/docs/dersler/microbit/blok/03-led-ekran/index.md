@@ -29,6 +29,8 @@ micro:bit ekranı 5 sütun ve 5 satırdan oluşan **25 LED**'den yapılmıştır
 
 ![LED ekranın koordinatları: x sütunları soldan sağa 0'dan 4'e, y satırları yukarıdan aşağı 0'dan 4'e numaralanır. x 3, y 1 konumundaki LED yanıyor.](./led-koordinat.svg)
 
+<small>Kart görseli: [microbit.org](https://microbit.org)</small>
+
 :::tip[Dikkat: sayma 0'dan başlar]
 Bilgisayarlar saymaya genellikle 0'dan başlar. Bu yüzden ilk sütun x = 0, son sütun x = 4'tür.
 :::
