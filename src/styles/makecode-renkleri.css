@@ -52,3 +52,11 @@ header.header .site-title {
 .sl-markdown-content img {
 	border-radius: 0.5rem;
 }
+
+/* Tablolar sayfa genişliğini doldursun; dar ekranda Starlight'ın yana kaydırması kalsın */
+@media (min-width: 50rem) {
+	.sl-markdown-content table {
+		display: table;
+		width: 100%;
+	}
+}
