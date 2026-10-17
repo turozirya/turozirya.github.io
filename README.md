@@ -45,6 +45,25 @@ Not buraya.
 </details>
 ```
 
+## Görsel eklemek
+
+Görselleri haftanın dosyasının yanındaki `gorseller` klasörüne koy, adının başına hafta
+numarasını yaz (Türkçe karakter ve boşluk kullanma):
+
+```
+dersler/microbit/blok/gorseller/02-makecode-arayuzu.png
+dersler/microbit/metin/gorseller/19-python-editor.png
+```
+
+Ders dosyasında şöyle göster (köşeli parantez içi, görseli göremeyenler için açıklamadır):
+
+```md
+![MakeCode editörünün ana ekranı](./gorseller/02-makecode-arayuzu.png)
+```
+
+Site görselleri derlerken otomatik küçültür ve WebP biçimine çevirir; büyük fotoğraf koymak sorun değildir.
+MakeCode'da blokların resmini almak için kod alanına sağ tıklayıp "Ekran görüntüsü" seçilebilir.
+
 ## Yeni ünite veya ders eklemek
 
 Yeni ünite: `dersler/microbit/` altına yeni bir klasör aç ve `astro.config.mjs` içindeki

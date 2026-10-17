@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'kod_turozirya',
+			logo: { src: './src/assets/logo.svg', alt: '' },
 			description: 'Ortaokul robotik kodlama kulübü için micro:bit dersleri',
 			// Raspberry Pi 5 çekirdeği (16 KB bellek sayfası) Pagefind aramasını çalıştıramıyor;
 			// Pi'de "npm run build:pi" ile aramasız derlenir. Yayın sunucusunda arama çalışır.
