@@ -30,6 +30,8 @@ micro:bit, avuç içi büyüklüğünde, programlanabilen küçük bir bilgisaya
 
 ![micro\:bit v2 kartının ön yüzünde LED ekran, A ve B butonları, dokunmatik logo ve bağlantı pinleri; arka yüzünde işlemci, hareket sensörü, hoparlör, mikrofon, USB girişi, pil yuvası ve sıfırlama düğmesi bulunur.](./microbit-parcalari.svg)
 
+<small>Kart görselleri: [microbit.org](https://microbit.org)</small>
+
 | Parça | Ne işe yarar? | Robot parçası |
 | --- | --- | --- |
 | A ve B butonları | Basıldığını algılar | Sensör |
