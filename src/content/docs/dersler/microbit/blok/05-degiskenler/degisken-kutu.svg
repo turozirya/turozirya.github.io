@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>Değişken, içinde değer saklayan etiketli bir kutudur: sayaç kutusu 0 ile başlar, A'ya her basışta 1 artar.</title>
+  <defs>
+    <marker id="okd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="800" height="340" fill="#FFFFFF"/>
+  <text x="400" y="38" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">Değişken: İçinde Değer Saklayan Kutu</text>
+
+  <!-- Kutular -->
+  <g fill="#FEE2E2" stroke="#DC143C" stroke-width="2.5">
+    <rect x="70" y="130" width="140" height="110" rx="10"/>
+    <rect x="330" y="130" width="140" height="110" rx="10"/>
+    <rect x="590" y="130" width="140" height="110" rx="10"/>
+  </g>
+  <g fill="#DC143C">
+    <rect x="95" y="104" width="90" height="30" rx="8"/>
+    <rect x="355" y="104" width="90" height="30" rx="8"/>
+    <rect x="615" y="104" width="90" height="30" rx="8"/>
+  </g>
+  <g font-size="15" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <text x="140" y="125">sayaç</text>
+    <text x="400" y="125">sayaç</text>
+    <text x="660" y="125">sayaç</text>
+  </g>
+  <g font-size="48" font-weight="700" fill="#0F172A" text-anchor="middle">
+    <text x="140" y="203">0</text>
+    <text x="400" y="203">1</text>
+    <text x="660" y="203">2</text>
+  </g>
+
+  <!-- Oklar -->
+  <g stroke="#475569" stroke-width="2.5">
+    <line x1="214" y1="185" x2="324" y2="185" marker-end="url(#okd)"/>
+    <line x1="474" y1="185" x2="584" y2="185" marker-end="url(#okd)"/>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#334155">
+    <text x="270" y="172">A'ya basıldı</text>
+    <text x="530" y="172">A'ya basıldı</text>
+  </g>
+  <g font-size="16" font-weight="700" text-anchor="middle" fill="#DC143C">
+    <text x="270" y="210">+1</text>
+    <text x="530" y="210">+1</text>
+  </g>
+
+  <g font-size="15" text-anchor="middle" fill="#0F172A">
+    <text x="140" y="268">Başlangıç</text>
+    <text x="400" y="268">1. basış</text>
+    <text x="660" y="268">2. basış</text>
+  </g>
+  <text x="400" y="314" text-anchor="middle" font-size="15" fill="#334155">Kutunun adı aynı kalır, içindeki değer değişir.</text>
+</svg>

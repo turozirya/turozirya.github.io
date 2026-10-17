@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 480" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title>5x5 LED ekran: x sütunları soldan sağa 0'dan 4'e, y satırları yukarıdan aşağı 0'dan 4'e numaralanır. x 3, y 1 konumundaki LED yanıyor.</title>
+<rect width="780" height="480" fill="#FFFFFF"/>
+<text x="390" y="38" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">LED Ekranın Koordinatları</text>
+<rect x="218" y="98" width="304" height="304" rx="14" fill="#1F2937"/>
+<rect x="251" y="127" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="307" y="127" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="363" y="127" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="419" y="127" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="475" y="127" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="251" y="183" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="307" y="183" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="363" y="183" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="419" y="183" width="14" height="22" rx="2" fill="#EF4444"/>
+<rect x="475" y="183" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="251" y="239" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="307" y="239" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="363" y="239" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="419" y="239" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="475" y="239" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="251" y="295" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="307" y="295" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="363" y="295" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="419" y="295" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="475" y="295" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="251" y="351" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="307" y="351" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="363" y="351" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="419" y="351" width="14" height="22" rx="2" fill="#4B1113"/>
+<rect x="475" y="351" width="14" height="22" rx="2" fill="#4B1113"/>
+<text x="258" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB">0</text>
+<text x="202" y="144" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">0</text>
+<text x="314" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB">1</text>
+<text x="202" y="200" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">1</text>
+<text x="370" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB">2</text>
+<text x="202" y="256" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">2</text>
+<text x="426" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB">3</text>
+<text x="202" y="312" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">3</text>
+<text x="482" y="88" text-anchor="middle" font-size="17" font-weight="700" fill="#2563EB">4</text>
+<text x="202" y="368" text-anchor="middle" font-size="17" font-weight="700" fill="#DC2626">4</text>
+<text x="540" y="88" font-size="18" font-weight="700" fill="#2563EB">x →</text>
+<text x="190" y="434" font-size="18" font-weight="700" fill="#DC2626">y ↓</text>
+<path d="M438 194 H550 V194" stroke="#475569" stroke-width="2" fill="none"/>
+<rect x="550" y="172" width="150" height="44" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="625" y="200" text-anchor="middle" font-size="17" font-weight="700" fill="#0F172A">x = 3, y = 1</text>
+<text x="390" y="462" text-anchor="middle" font-size="15" fill="#334155">Sayma 0'dan başlar: sol üst köşe x = 0, y = 0; sağ alt köşe x = 4, y = 4</text>
+</svg>

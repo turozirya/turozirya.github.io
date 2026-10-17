@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>Olay olunca kart tepki verir: A'ya basılınca gülen yüz, B'ye basılınca üzgün yüz, A ve B'ye birlikte basılınca kalp gösterilir.</title>
+  <defs>
+    <marker id="oko" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <text x="400" y="38" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">Olay Olunca Kart Tepki Verir</text>
+
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <text x="130" y="82" fill="#2563EB">SENSÖR (GİRDİ)</text>
+    <text x="400" y="82" fill="#EA580C">KOD (İŞLEMCİ)</text>
+    <text x="670" y="82" fill="#16A34A">EYLEMCİ (ÇIKTI)</text>
+  </g>
+
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5">
+    <rect x="40" y="100" width="180" height="56" rx="10"/>
+    <rect x="40" y="190" width="180" height="56" rx="10"/>
+    <rect x="40" y="280" width="180" height="56" rx="10"/>
+  </g>
+  <g fill="#FFEDD5" stroke="#EA580C" stroke-width="2.5">
+    <rect x="280" y="100" width="240" height="56" rx="10"/>
+    <rect x="280" y="190" width="240" height="56" rx="10"/>
+    <rect x="280" y="280" width="240" height="56" rx="10"/>
+  </g>
+  <g fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5">
+    <rect x="580" y="100" width="180" height="56" rx="10"/>
+    <rect x="580" y="190" width="180" height="56" rx="10"/>
+    <rect x="580" y="280" width="180" height="56" rx="10"/>
+  </g>
+
+  <g font-size="15" text-anchor="middle" fill="#0F172A">
+    <text x="130" y="133">A'ya basıldı</text>
+    <text x="130" y="223">B'ye basıldı</text>
+    <text x="130" y="313">A ve B'ye birlikte</text>
+    <text x="400" y="133">A düğmesine basıldığında</text>
+    <text x="400" y="223">B düğmesine basıldığında</text>
+    <text x="400" y="313">A+B düğmesine basıldığında</text>
+    <text x="670" y="133">Gülen yüz</text>
+    <text x="670" y="223">Üzgün yüz</text>
+    <text x="670" y="313">Kalp</text>
+  </g>
+
+  <g stroke="#475569" stroke-width="2.5">
+    <line x1="222" y1="128" x2="276" y2="128" marker-end="url(#oko)"/>
+    <line x1="522" y1="128" x2="576" y2="128" marker-end="url(#oko)"/>
+    <line x1="222" y1="218" x2="276" y2="218" marker-end="url(#oko)"/>
+    <line x1="522" y1="218" x2="576" y2="218" marker-end="url(#oko)"/>
+    <line x1="222" y1="308" x2="276" y2="308" marker-end="url(#oko)"/>
+    <line x1="522" y1="308" x2="576" y2="308" marker-end="url(#oko)"/>
+  </g>
+
+  <text x="400" y="378" text-anchor="middle" font-size="15" fill="#334155">Olay olmadıkça bu kodlar çalışmaz; kart bekler.</text>
+</svg>
