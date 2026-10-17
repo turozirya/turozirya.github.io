@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://turozirya.github.io',
 	integrations: [
 		starlight({
 			title: 'kod_turozirya',
