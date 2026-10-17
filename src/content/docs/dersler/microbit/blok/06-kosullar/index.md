@@ -1,4 +1,6 @@
 ---
+# Yayına hazır olunca bu satırı sil:
+draft: true
 title: "6. Hafta – Koşullar"
 description: Eğer-ise ve eğer-değilse bloklarıyla karta karar verdiriyor, karşılaştırma yapıyoruz.
 sidebar:

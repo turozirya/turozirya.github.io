@@ -1,4 +1,6 @@
 ---
+# Yayına hazır olunca bu satırı sil:
+draft: true
 title: "5. Hafta – Değişkenler"
 description: Değişken oluşturuyor, değerini artırıp azaltıyor ve micro:bit ile bir sayaç yapıyoruz.
 sidebar:

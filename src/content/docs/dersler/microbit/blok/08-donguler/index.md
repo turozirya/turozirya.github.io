@@ -1,4 +1,6 @@
 ---
+# Yayına hazır olunca bu satırı sil:
+draft: true
 title: "8. Hafta – Döngüler"
 description: Her zaman, tekrarla ve olduğunda döngüleriyle tekrar eden işleri kısaltıyor; LED animasyonları ve geri sayım yapıyoruz.
 sidebar:

@@ -1,4 +1,6 @@
 ---
+# Yayına hazır olunca bu satırı sil:
+draft: true
 title: "4. Hafta – Butonlar ve Olaylar"
 description: A ve B butonlarıyla karta komut veriyor, olay kavramını ve girdi-çıktı ilişkisini öğreniyoruz.
 sidebar:

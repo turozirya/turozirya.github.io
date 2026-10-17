@@ -1,4 +1,6 @@
 ---
+# Yayına hazır olunca bu satırı sil:
+draft: true
 title: "7. Hafta – Rastgele Sayılar"
 description: Rastgele sayı üretiyor, sallama hareketini kullanıyor; elektronik zar ve taş-kâğıt-makas yapıyoruz.
 sidebar:
