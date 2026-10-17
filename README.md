@@ -14,15 +14,15 @@ Raspberry Pi'de derlemek için `npm run build:pi` kullan (arama özelliği Pi'de
 
 ## Konu yazmak
 
-Konular `src/content/docs/dersler/microbit/<hafta-klasörü>/` içindedir. Bir dosyayı açıp
+Haftalar `src/content/docs/dersler/microbit/blok/` (1–18) ve `metin/` (19–28) içindedir. Bir dosyayı açıp
 "Hazırlanıyor" notunu silip yerine içeriği yaz. Dosyanın başındaki bilgiler:
 
 ```yaml
 ---
-title: "Konu başlığı"
+title: "5. Hafta – Değişkenler"
 hafta: 5
-seviye: Blok + Python
-sure: 1 ders saati
+seviye: Blok (MakeCode)
+sure: 2 ders saati
 kazanimlar:
   - Birinci kazanım.
   - İkinci kazanım.
@@ -31,7 +31,7 @@ video: https://www.youtube.com/watch?v=xxxx      # isteğe bağlı
 ---
 ```
 
-Örnek olarak tamamlanmış sayfalar: `01-robot-nedir.md`, `22-kart-haritasi.md`, `25-led-ekran.md`.
+Örnek olarak tamamlanmış hafta: `blok/01-temeller.md`.
 
 Önerilen bölümler: Amaç → Malzemeler → Adım adım etkinlik → Kendini dene → Mini test → Öğretmen notu.
 Cevapları ve öğretmen notunu gizlemek için:
@@ -66,5 +66,7 @@ MakeCode'da blokların resmini almak için kod alanına sağ tıklayıp "Ekran g
 
 ## Yeni ünite veya ders eklemek
 
-Yeni ünite: `dersler/microbit/` altına yeni bir klasör aç ve `astro.config.mjs` içindeki
-kenar menüye ekle (menü `src/kenar-menu-microbit.json` dosyasından gelir).
+Yeni hafta: `blok/` veya `metin/` klasörüne `NN-konu-adi.md` dosyası ekle; menüde kendiliğinden görünür.
+
+Yeni ders (örn. Scratch): `dersler/` altına yeni bir klasör aç ve `astro.config.mjs` içindeki
+`sidebar` listesine bir grup olarak ekle.
