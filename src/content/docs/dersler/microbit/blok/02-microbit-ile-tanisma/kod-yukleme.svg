@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>Kodu micro:bit kartına yükleme adımları</title>
+  <defs>
+    <marker id="ok4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="900" height="420" fill="#FFFFFF"/>
+  <text x="450" y="38" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">Kodu micro:bit'e Yükleme</text>
+
+  <!-- Adımlar -->
+  <g fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5">
+    <rect x="30" y="66" width="180" height="74" rx="10"/>
+    <rect x="250" y="66" width="180" height="74" rx="10"/>
+    <rect x="470" y="66" width="180" height="74" rx="10"/>
+    <rect x="690" y="66" width="180" height="74" rx="10"/>
+  </g>
+  <g text-anchor="middle" fill="#0F172A">
+    <text x="120" y="98" font-size="16" font-weight="700">1 · Kodu yaz</text>
+    <text x="120" y="122" font-size="13" fill="#334155">Blokları birleştir</text>
+    <text x="340" y="98" font-size="16" font-weight="700">2 · Simülatörde dene</text>
+    <text x="340" y="122" font-size="13" fill="#334155">Hatayı ekranda bul</text>
+    <text x="560" y="98" font-size="16" font-weight="700">3 · Kartı bağla</text>
+    <text x="560" y="122" font-size="13" fill="#334155">USB kablo ile</text>
+    <text x="780" y="98" font-size="16" font-weight="700">4 · İndir'e bas</text>
+    <text x="780" y="122" font-size="13" fill="#334155">Kodu karta gönder</text>
+  </g>
+
+  <!-- İki yol -->
+  <g fill="#FFEDD5" stroke="#EA580C" stroke-width="2.5">
+    <rect x="140" y="196" width="300" height="84" rx="10"/>
+    <rect x="460" y="196" width="300" height="84" rx="10"/>
+  </g>
+  <g text-anchor="middle" fill="#0F172A">
+    <text x="290" y="224" font-size="16" font-weight="700">Yol A · Chrome / Edge</text>
+    <text x="290" y="246" font-size="13" fill="#334155">Kartı bir kez eşleştir; İndir'e basınca</text>
+    <text x="290" y="264" font-size="13" fill="#334155">kod doğrudan karta yüklenir</text>
+    <text x="610" y="224" font-size="16" font-weight="700">Yol B · Diğer tarayıcılar</text>
+    <text x="610" y="246" font-size="13" fill="#334155">İnen .hex dosyasını</text>
+    <text x="610" y="264" font-size="13" fill="#334155">MICROBIT sürücüsüne sürükle</text>
+  </g>
+
+  <!-- Sonuç -->
+  <rect x="290" y="324" width="320" height="64" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5"/>
+  <text x="450" y="352" text-anchor="middle" font-size="16" font-weight="700" fill="#0F172A">5 · Kart kodu çalıştırır</text>
+  <text x="450" y="374" text-anchor="middle" font-size="13" fill="#334155">Yüklenirken arkadaki ışık yanıp söner</text>
+
+  <!-- Oklar -->
+  <g stroke="#475569" stroke-width="2.5" fill="none">
+    <line x1="210" y1="103" x2="246" y2="103" marker-end="url(#ok4)"/>
+    <line x1="430" y1="103" x2="466" y2="103" marker-end="url(#ok4)"/>
+    <line x1="650" y1="103" x2="686" y2="103" marker-end="url(#ok4)"/>
+    <path d="M780 140 V168 H290 V192" marker-end="url(#ok4)"/>
+    <path d="M610 168 V192" marker-end="url(#ok4)"/>
+    <path d="M290 280 V302 H450 V320" marker-end="url(#ok4)"/>
+    <path d="M610 280 V302 H450"/>
+  </g>
+</svg>

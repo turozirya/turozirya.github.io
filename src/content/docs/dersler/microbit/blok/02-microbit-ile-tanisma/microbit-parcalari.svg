@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>micro:bit v2 kartının ön ve arka yüzündeki parçalar</title>
+  <defs>
+    <pattern id="led" x="160" y="131" width="26" height="26" patternUnits="userSpaceOnUse">
+      <rect x="10" y="7" width="6" height="12" rx="1" fill="#DC2626"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="620" fill="#FFFFFF"/>
+  <text x="450" y="36" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">micro:bit v2'yi Tanıyalım</text>
+
+  <!-- ÖN YÜZ -->
+  <text x="225" y="68" text-anchor="middle" font-size="16" font-weight="700" fill="#64748B">ÖN YÜZ</text>
+  <rect x="60" y="80" width="330" height="260" rx="18" fill="#F1F5F9" stroke="#475569" stroke-width="2"/>
+  <ellipse cx="225" cy="108" rx="18" ry="10" fill="none" stroke="#CA8A04" stroke-width="2.5"/>
+  <rect x="160" y="131" width="130" height="130" fill="url(#led)"/>
+  <circle cx="100" cy="196" r="17" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <text x="100" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">A</text>
+  <circle cx="350" cy="196" r="17" fill="#64748B" stroke="#334155" stroke-width="2"/>
+  <text x="350" y="202" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">B</text>
+  <rect x="62" y="292" width="326" height="46" rx="4" fill="#FEF3C7"/>
+  <g fill="#FFFFFF" stroke="#CA8A04" stroke-width="2.5">
+    <circle cx="95" cy="316" r="15"/><circle cx="160" cy="316" r="15"/><circle cx="225" cy="316" r="15"/><circle cx="290" cy="316" r="15"/><circle cx="355" cy="316" r="15"/>
+  </g>
+  <g font-size="11" font-weight="700" fill="#92400E" text-anchor="middle">
+    <text x="95" y="320">0</text><text x="160" y="320">1</text><text x="225" y="320">2</text><text x="290" y="320">3V</text><text x="355" y="320">GND</text>
+  </g>
+  <!-- ön rozetler -->
+  <g font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="312" cy="140" r="11" fill="#16A34A"/><text x="312" y="144">1</text>
+    <circle cx="130" cy="228" r="11" fill="#2563EB"/><text x="130" y="232">2</text>
+    <circle cx="258" cy="108" r="11" fill="#2563EB"/><text x="258" y="112">3</text>
+    <circle cx="372" cy="280" r="11" fill="#7C3AED"/><text x="372" y="284">4</text>
+  </g>
+
+  <!-- ARKA YÜZ -->
+  <text x="675" y="68" text-anchor="middle" font-size="16" font-weight="700" fill="#64748B">ARKA YÜZ</text>
+  <rect x="510" y="80" width="330" height="260" rx="18" fill="#F1F5F9" stroke="#475569" stroke-width="2"/>
+  <rect x="655" y="72" width="40" height="20" rx="3" fill="#CBD5E1" stroke="#334155" stroke-width="2"/>
+  <circle cx="735" cy="100" r="8" fill="#334155"/>
+  <rect x="780" y="88" width="40" height="24" rx="3" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+  <rect x="570" y="112" width="14" height="10" rx="2" fill="#1F2937"/>
+  <rect x="620" y="160" width="50" height="50" rx="4" fill="#1F2937"/>
+  <circle cx="770" cy="190" r="24" fill="#1F2937"/>
+  <circle cx="770" cy="190" r="8" fill="#475569"/>
+  <rect x="560" y="215" width="22" height="22" rx="3" fill="#1F2937"/>
+  <rect x="512" y="292" width="326" height="46" rx="4" fill="#FEF3C7"/>
+  <g fill="#FFFFFF" stroke="#CA8A04" stroke-width="2.5">
+    <circle cx="545" cy="316" r="15"/><circle cx="610" cy="316" r="15"/><circle cx="675" cy="316" r="15"/><circle cx="740" cy="316" r="15"/><circle cx="805" cy="316" r="15"/>
+  </g>
+  <g font-size="11" font-weight="700" fill="#92400E" text-anchor="middle">
+    <text x="545" y="320">GND</text><text x="610" y="320">3V</text><text x="675" y="320">2</text><text x="740" y="320">1</text><text x="805" y="320">0</text>
+  </g>
+  <!-- arka rozetler -->
+  <g font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="692" cy="164" r="11" fill="#EA580C"/><text x="692" y="168">5</text>
+    <circle cx="602" cy="226" r="11" fill="#2563EB"/><text x="602" y="230">6</text>
+    <circle cx="770" cy="236" r="11" fill="#16A34A"/><text x="770" y="240">7</text>
+    <circle cx="577" cy="138" r="11" fill="#2563EB"/><text x="577" y="142">8</text>
+    <circle cx="675" cy="110" r="11" fill="#7C3AED"/><text x="675" y="114">9</text>
+    <circle cx="800" cy="128" r="11" fill="#7C3AED"/><text x="800" y="132">10</text>
+    <circle cx="735" cy="124" r="11" fill="#7C3AED"/><text x="735" y="128">11</text>
+  </g>
+
+  <!-- Açıklamalar -->
+  <g font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="72" cy="396" r="11" fill="#16A34A"/><text x="72" y="400">1</text>
+    <circle cx="72" cy="424" r="11" fill="#2563EB"/><text x="72" y="428">2</text>
+    <circle cx="72" cy="452" r="11" fill="#2563EB"/><text x="72" y="456">3</text>
+    <circle cx="72" cy="480" r="11" fill="#7C3AED"/><text x="72" y="484">4</text>
+    <circle cx="522" cy="396" r="11" fill="#EA580C"/><text x="522" y="400">5</text>
+    <circle cx="522" cy="424" r="11" fill="#2563EB"/><text x="522" y="428">6</text>
+    <circle cx="522" cy="452" r="11" fill="#16A34A"/><text x="522" y="456">7</text>
+    <circle cx="522" cy="480" r="11" fill="#2563EB"/><text x="522" y="484">8</text>
+    <circle cx="522" cy="508" r="11" fill="#7C3AED"/><text x="522" y="512">9</text>
+    <circle cx="522" cy="536" r="11" fill="#7C3AED"/><text x="522" y="540">10</text>
+    <circle cx="522" cy="564" r="11" fill="#7C3AED"/><text x="522" y="568">11</text>
+  </g>
+  <g font-size="15" fill="#0F172A">
+    <text x="92" y="401">LED ekran (25 ışık)</text>
+    <text x="92" y="429">A ve B butonları</text>
+    <text x="92" y="457">Dokunmatik logo</text>
+    <text x="92" y="485">Bağlantı pinleri (0, 1, 2, 3V, GND)</text>
+    <text x="542" y="401">İşlemci (kartın beyni)</text>
+    <text x="542" y="429">Hareket sensörü ve pusula</text>
+    <text x="542" y="457">Hoparlör</text>
+    <text x="542" y="485">Mikrofon</text>
+    <text x="542" y="513">USB girişi</text>
+    <text x="542" y="541">Pil yuvası</text>
+    <text x="542" y="569">Sıfırlama düğmesi</text>
+  </g>
+
+  <!-- Renk anahtarı -->
+  <line x1="40" y1="586" x2="860" y2="586" stroke="#E2E8F0" stroke-width="2"/>
+  <g font-size="14" fill="#334155">
+    <circle cx="66" cy="604" r="7" fill="#2563EB"/><text x="80" y="609">Sensör / girdi</text>
+    <circle cx="266" cy="604" r="7" fill="#EA580C"/><text x="280" y="609">İşlemci</text>
+    <circle cx="436" cy="604" r="7" fill="#16A34A"/><text x="450" y="609">Eylemci / çıktı</text>
+    <circle cx="656" cy="604" r="7" fill="#7C3AED"/><text x="670" y="609">Bağlantı ve güç</text>
+  </g>
+</svg>
