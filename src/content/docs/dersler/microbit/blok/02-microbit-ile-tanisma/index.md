@@ -69,28 +69,28 @@ Kodlarımızı **makecode.microbit.org** adresinde yazacağız. Kurulum gerekmez
 | No | Bölüm | Ne işe yarar? |
 | --- | --- | --- |
 | 1 | Simülatör | Kodun kartta nasıl çalışacağını ekranda gösterir |
-| 2 | Blok kategorileri | Blokları renklerine göre gruplar: Temel, Giriş, Müzik… |
+| 2 | Blok kategorileri | Blokları renklerine göre gruplar: Temel, Girdi, Müzik… |
 | 3 | Kod alanı | Blokları sürükleyip birleştirdiğimiz yer |
 | 4 | İndir düğmesi | Kodu micro:bit kartına gönderir |
 | 5 | Blok / Python geçişi | Aynı kodu metin olarak gösterir (2. dönemde kullanacağız) |
 
 Yeni projede kod alanında iki blok hazır gelir:
 
-- **başlangıçta:** İçindeki kod, kart açıldığında **bir kez** çalışır.
-- **sürekli:** İçindeki kod, kart açık olduğu sürece **tekrar tekrar** çalışır.
+- **program başladığında:** İçindeki kod, kart açıldığında **bir kez** çalışır.
+- **her zaman:** İçindeki kod, kart açık olduğu sürece **tekrar tekrar** çalışır.
 
 ---
 
 ## 3. İlk kodumuz: Kalp göster
 
 1. **Temel** kategorisine tıkla.
-2. **simge göster** bloğunu sürükleyip **başlangıçta** bloğunun içine bırak.
+2. **simgeyi göster** bloğunu sürükleyip **program başladığında** bloğunun içine bırak.
 3. Bloktaki simgeye tıklayıp kalbi seç.
 4. Simülatöre bak: Ekranda kalp belirdi!
 
-![İlk kod: başlangıçta bloğunun içinde simge göster kalp bloğu. Aynı kodun MicroPython karşılığı ve micro\:bit ekranında oluşan kalp görüntüsü.](./ilk-kod.svg)
+![İlk kod: program başladığında bloğunun içinde simgeyi göster kalp bloğu. Aynı kodun MicroPython karşılığı ve micro\:bit ekranında oluşan kalp görüntüsü.](./ilk-kod.svg)
 
-**Kalbi attıralım:** Şimdi **sürekli** bloğunun içine iki tane **simge göster** bloğu koy. Birincisinde büyük kalbi, ikincisinde küçük kalbi seç. Kart açık olduğu sürece kalp atmaya başlar.
+**Kalbi attıralım:** Şimdi **her zaman** bloğunun içine iki tane **simgeyi göster** bloğu koy. Birincisinde büyük kalbi, ikincisinde küçük kalbi seç. Kart açık olduğu sürece kalp atmaya başlar.
 
 MicroPython'da aynı kod şöyle görünür (bunu 2. dönemde öğreneceğiz):
 
@@ -150,9 +150,9 @@ Kodu yükledikten sonra kabloyu çıkarıp pil yuvasını takarsan kart kodu ça
 
 ## Kendini dene
 
-1. **Temel** kategorisindeki **LED'leri göster** bloğuyla kendi simgeni çiz ve karta yükle.
-2. **yazı göster** bloğuyla adının ilk harfini ekranda kaydır.
-3. **sürekli** bloğunun içinde 3 farklı simgeden oluşan bir animasyon yap.
+1. **Temel** kategorisindeki **led'leri göster** bloğuyla kendi simgeni çiz ve karta yükle.
+2. **dizgi göster** bloğuyla adının ilk harfini ekranda kaydır.
+3. **her zaman** bloğunun içinde 3 farklı simgeden oluşan bir animasyon yap.
 4. Kodunu bir arkadaşının kartına yükle. Onun kartında da aynı şekilde çalışıyor mu?
 
 ---
@@ -163,7 +163,7 @@ Kodu yükledikten sonra kabloyu çıkarıp pil yuvasını takarsan kart kodu ça
    a) 16  b) 25  c) 36
 2. Kodu kartsız denemek için ne kullanırız?
    a) Simülatör  b) Pil yuvası  c) Pinler
-3. **başlangıçta** bloğundaki kod ne zaman çalışır?
+3. **program başladığında** bloğundaki kod ne zaman çalışır?
    a) Sürekli tekrar eder  b) Kart açıldığında bir kez  c) Butona basınca
 4. Aşağıdakilerden hangisi bir eylemcidir?
    a) A butonu  b) Hoparlör  c) Hareket sensörü

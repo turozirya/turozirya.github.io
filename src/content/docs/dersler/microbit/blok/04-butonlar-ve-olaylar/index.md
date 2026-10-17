@@ -35,7 +35,7 @@ video: ""
 | Trafik ışığı yeşil yandı | Karşıya geçeriz |
 | Asansör düğmesine basıldı | Asansör gelir |
 
-micro:bit'te de durum aynıdır: **A butonuna basıldığında** ne yapacağını biz söyleriz.
+micro:bit'te de durum aynıdır: **A tuşuna basıldığında** ne yapacağını biz söyleriz.
 
 ---
 
@@ -49,14 +49,14 @@ micro:bit'te de durum aynıdır: **A butonuna basıldığında** ne yapacağın�
 
 ## 3. Buton olay blokları
 
-**Giriş** kategorisinde (mor renkli) olay blokları bulunur. Olay blokları **başlangıçta** veya **sürekli** bloğunun içine konmaz; kod alanında tek başına durur.
+**Girdi** kategorisinde (mor renkli) olay blokları bulunur. Olay blokları **program başladığında** veya **her zaman** bloğunun içine konmaz; kod alanında tek başına durur.
 
 | Blok | Ne zaman çalışır? |
 | --- | --- |
-| A düğmesine basıldığında | A butonuna basılıp bırakılınca |
-| B düğmesine basıldığında | B butonuna basılıp bırakılınca |
-| A+B düğmesine basıldığında | İki butona birlikte basılınca |
-| logoya dokunulduğunda | Kartın üstündeki logoya dokununca (yalnızca v2) |
+| A tuşuna basıldığında | A butonuna basılıp bırakılınca |
+| B tuşuna basıldığında | B butonuna basılıp bırakılınca |
+| A+B tuşuna basıldığında | İki butona birlikte basılınca |
+| on logo pressed | Kartın üstündeki logoya dokununca (yalnızca v2; bu blok Türkçe MakeCode'da da İngilizce görünür) |
 
 :::tip[A+B'ye basmak]
 İki butona aynı anda basmak biraz pratik ister. İki parmağını butonların üstüne koy ve birlikte bastır.
@@ -68,14 +68,14 @@ micro:bit'te de durum aynıdır: **A butonuna basıldığında** ne yapacağın�
 
 A butonuna basınca gülen yüz, B butonuna basınca üzgün yüz, ikisine birden basınca kalp gösteren bir kart yapalım.
 
-![Duygu kartı kodu: A düğmesine basıldığında mutlu simge, B düğmesine basıldığında üzgün simge, A+B düğmesine basıldığında kalp simgesi gösterilir.](./duygu-karti-bloklari.svg)
+![Duygu kartı kodu: A tuşuna basıldığında mutlu simge, B tuşuna basıldığında üzgün simge, A+B tuşuna basıldığında kalp simgesi gösterilir.](./duygu-karti-bloklari.svg)
 
-1. **Giriş** kategorisinden **A düğmesine basıldığında** bloğunu kod alanına sürükle.
-2. İçine **Temel** kategorisinden **simge göster** koy ve mutlu yüzü seç.
+1. **Girdi** kategorisinden **A tuşuna basıldığında** bloğunu kod alanına sürükle.
+2. İçine **Temel** kategorisinden **simgeyi göster** koy ve mutlu yüzü seç.
 3. Aynı işi B ve A+B için tekrarla. Bloğun üzerindeki A harfine tıklayarak B veya A+B seçebilirsin.
 4. Simülatörde A ve B butonlarına tıklayarak dene, sonra karta yükle.
 
-MicroPython'da butonları **sürekli** dönen bir döngüde kontrol ederiz:
+MicroPython'da butonları, bloklardaki **her zaman** gibi hiç durmadan dönen `while True` döngüsünde kontrol ederiz:
 
 ```python
 from microbit import *
@@ -93,7 +93,7 @@ while True:
 
 ## 5. Dokunmatik logo
 
-micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **logoya dokunulduğunda** bloğuyla üçüncü bir buton gibi kullanabilirsin.
+micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **on logo pressed** bloğuyla üçüncü bir buton gibi kullanabilirsin.
 
 **Örnek:** Logoya dokununca ekranı temizle; böylece duygu kartı "sıfırlanmış" olur.
 
@@ -113,7 +113,7 @@ micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **logoya do
 1. Butona basılması, olayların hangisine bir örnektir?
    a) Girdi  b) Çıktı  c) İşlemci
 2. Olay blokları hangi kategoridedir?
-   a) Temel  b) Giriş  c) Müzik
+   a) Temel  b) Girdi  c) Müzik
 3. A+B olayı ne zaman çalışır?
    a) Önce A'ya, sonra B'ye basınca  b) İki butona birlikte basınca  c) Kart açılınca
 4. Duygu kartında ekran hangi robot parçasıdır?
@@ -135,5 +135,5 @@ micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **logoya do
 - **1. ders saati:** Olay kavramı ve günlük hayat örnekleri (10 dk), girdi-işlem-çıktı (10 dk), buton blokları ve ilk deneme (20 dk).
 - **2. ders saati:** Duygu kartı projesi (20 dk), dokunmatik logo (5 dk), kendini dene (10 dk), mini quiz (5 dk).
 - Isınma oyunu önerisi: "Öğretmen olay söyler, sınıf tepki verir." Örneğin "Elimi kaldırırsam ayağa kalkın." Olay ve tepki ilişkisini bedenle yaşatır.
-- Öğrenciler olay bloklarını **sürekli** içine koymaya çalışabilir; MakeCode buna izin vermez. Bu, olay bloklarının bağımsız çalıştığını göstermek için iyi bir fırsattır.
+- Öğrenciler olay bloklarını **her zaman** içine koymaya çalışabilir; MakeCode buna izin vermez. Bu, olay bloklarının bağımsız çalıştığını göstermek için iyi bir fırsattır.
 - Duygu kartını sınıfta "bugün nasılsın?" panosu olarak kullanabilirsiniz.

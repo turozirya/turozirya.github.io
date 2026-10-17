@@ -42,5 +42,5 @@
     <text x="272" y="420" fill="#B91C1C">Hayır</text>
   </g>
 
-  <text x="380" y="520" text-anchor="middle" font-size="15" fill="#334155">sürekli bloğu bu kontrolü durmadan tekrarlar.</text>
+  <text x="380" y="520" text-anchor="middle" font-size="15" fill="#334155">her zaman bloğu bu kontrolü durmadan tekrarlar.</text>
 </svg>

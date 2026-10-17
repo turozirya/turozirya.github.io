@@ -1,9 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 653 366" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-<title>İsim kartı kodu: başlangıçta Merhaba yazısı ve mutlu simge; sürekli bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.</title>
-<rect width="653" height="366" fill="#FFFFFF"/>
-<text x="326" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">İsim Kartı</text>
-<text x="30" y="76" font-size="13" font-weight="700" fill="#64748B">BIR KEZ ÇALIŞIR</text>
-<rect x="30" y="90" width="247" height="42" rx="12" fill="#1E90FF"/><rect x="30" y="126" width="18" height="88" fill="#1E90FF"/><text x="44" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">başlangıçta</text><rect x="48" y="132" width="219" height="36" rx="6" fill="#1E90FF"/><text x="60" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">yazı göster </text><rect x="159" y="138.0" width="86" height="24" rx="12" fill="#FFFFFF"/><text x="202" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">"Merhaba"</text><rect x="48" y="170" width="219" height="36" rx="6" fill="#1E90FF"/><text x="60" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">simge göster </text><rect x="168" y="176.0" width="56" height="24" rx="12" fill="#FFFFFF"/><text x="195" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">mutlu</text><rect x="30" y="208" width="148" height="18" rx="6" fill="#1E90FF"/>
-<text x="313" y="76" font-size="13" font-weight="700" fill="#64748B">DURMADAN TEKRARLAR</text>
-<rect x="313" y="90" width="310" height="42" rx="12" fill="#1E90FF"/><rect x="313" y="126" width="18" height="202" fill="#1E90FF"/><text x="327" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sürekli</text><rect x="331" y="132" width="282" height="36" rx="6" fill="#1E90FF"/><text x="343" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">yazı göster </text><rect x="442" y="138.0" width="63" height="24" rx="12" fill="#FFFFFF"/><text x="474" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">"ELİF"</text><rect x="331" y="170" width="282" height="36" rx="6" fill="#1E90FF"/><text x="343" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">LED'leri göster </text><rect x="475" y="176.0" width="116" height="24" rx="12" fill="#FFFFFF"/><text x="533" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">kendi çizimin</text><rect x="331" y="208" width="282" height="36" rx="6" fill="#1E90FF"/><text x="343" y="231.0" font-size="14" fill="#FFFFFF" xml:space="preserve">duraklat (ms) </text><rect x="459" y="214.0" width="41" height="24" rx="12" fill="#FFFFFF"/><text x="479" y="231.0" text-anchor="middle" font-size="13" fill="#0F172A">500</text><rect x="331" y="246" width="282" height="36" rx="6" fill="#1E90FF"/><text x="343" y="269.0" font-size="14" fill="#FFFFFF" xml:space="preserve">ekranı temizle</text><rect x="331" y="284" width="282" height="36" rx="6" fill="#1E90FF"/><text x="343" y="307.0" font-size="14" fill="#FFFFFF" xml:space="preserve">duraklat (ms) </text><rect x="459" y="290.0" width="41" height="24" rx="12" fill="#FFFFFF"/><text x="479" y="307.0" text-anchor="middle" font-size="13" fill="#0F172A">500</text><rect x="313" y="322" width="186" height="18" rx="6" fill="#1E90FF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 543 360" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title>İsim kartı kodu: program başladığında Merhaba yazısı ve mutlu simge; her zaman bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.</title>
+<rect width="543" height="360" fill="#FFFFFF"/>
+<text x="271" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">İsim Kartı</text>
+<text x="30" y="76" font-size="13" font-weight="700" fill="#64748B">BİR KEZ ÇALIŞIR</text>
+<rect x="30" y="126" width="18" height="84" fill="#1E90FF"/>
+<rect x="30" y="90" width="210" height="42" rx="12" fill="#1E90FF"/>
+<text x="44" y="116" font-size="14" fill="#FFFFFF">program başladığında</text>
+<rect x="48" y="132" width="182" height="36" rx="6" fill="#1E90FF"/>
+<text x="60" y="155" font-size="14" fill="#FFFFFF">dizgi göster</text>
+<rect x="140" y="138" width="78" height="24" rx="12" fill="#FFFFFF"/>
+<text x="179" y="155" text-anchor="middle" font-size="13" fill="#0F172A">&quot;Merhaba&quot;</text>
+<rect x="48" y="170" width="182" height="36" rx="6" fill="#1E90FF"/>
+<text x="60" y="193" font-size="14" fill="#FFFFFF">simgeyi göster</text>
+<rect x="159" y="176" width="50" height="24" rx="12" fill="#FFFFFF"/>
+<text x="184" y="193" text-anchor="middle" font-size="13" fill="#0F172A">mutlu</text>
+<rect x="30" y="208" width="126" height="18" rx="6" fill="#1E90FF"/>
+<text x="276" y="76" font-size="13" font-weight="700" fill="#64748B">DURMADAN TEKRARLAR</text>
+<rect x="276" y="126" width="18" height="198" fill="#1E90FF"/>
+<rect x="276" y="90" width="237" height="42" rx="12" fill="#1E90FF"/>
+<text x="290" y="116" font-size="14" fill="#FFFFFF">her zaman</text>
+<rect x="294" y="132" width="209" height="36" rx="6" fill="#1E90FF"/>
+<text x="306" y="155" font-size="14" fill="#FFFFFF">dizgi göster</text>
+<rect x="385" y="138" width="51" height="24" rx="12" fill="#FFFFFF"/>
+<text x="411" y="155" text-anchor="middle" font-size="13" fill="#0F172A">&quot;ELİF&quot;</text>
+<rect x="294" y="170" width="209" height="36" rx="6" fill="#1E90FF"/>
+<text x="306" y="193" font-size="14" fill="#FFFFFF">led&#x27;leri göster</text>
+<rect x="398" y="176" width="92" height="24" rx="12" fill="#FFFFFF"/>
+<text x="445" y="193" text-anchor="middle" font-size="13" fill="#0F172A">kendi çizimin</text>
+<rect x="294" y="208" width="209" height="36" rx="6" fill="#1E90FF"/>
+<text x="306" y="231" font-size="14" fill="#FFFFFF">duraklat (ms)</text>
+<rect x="397" y="214" width="38" height="24" rx="12" fill="#FFFFFF"/>
+<text x="416" y="231" text-anchor="middle" font-size="13" fill="#0F172A">500</text>
+<rect x="294" y="246" width="209" height="36" rx="6" fill="#1E90FF"/>
+<text x="306" y="269" font-size="14" fill="#FFFFFF">ekranı temizle</text>
+<rect x="294" y="284" width="209" height="36" rx="6" fill="#1E90FF"/>
+<text x="306" y="307" font-size="14" fill="#FFFFFF">duraklat (ms)</text>
+<rect x="397" y="290" width="38" height="24" rx="12" fill="#FFFFFF"/>
+<text x="416" y="307" text-anchor="middle" font-size="13" fill="#0F172A">500</text>
+<rect x="276" y="322" width="142" height="18" rx="6" fill="#1E90FF"/>
 </svg>

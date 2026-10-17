@@ -44,7 +44,7 @@ Bir oyunda puanı, bir koşuda adım sayısını ya da sınıftaki öğrenci say
 ## 2. Değişken oluşturmak
 
 1. **Değişkenler** kategorisine (kırmızı) tıkla.
-2. **Bir Değişken Oluştur** düğmesine bas.
+2. **Değişken Yarat...** düğmesine bas.
 3. Değişkene anlamlı bir ad ver: `sayac`, `puan`, `adim` gibi.
 
 :::tip[İyi değişken adları]
@@ -57,11 +57,11 @@ Değişkene içinde ne sakladığını anlatan bir ad ver. "a" yerine "puan" yaz
 
 | Blok | Ne yapar? | Örnek |
 | --- | --- | --- |
-| değerini … yap | Değişkene yeni bir değer verir | sayac değerini 0 yap |
-| değerini … değiştir | Değeri artırır veya azaltır | sayac değerini 1 değiştir (1 artırır), −1 yazarsan 1 azaltır |
-| değişkenin kendisi | Değişkenin o anki değerini verir | sayı göster bloğunun içine konur |
+| değişkenini … yap | Değişkene yeni bir değer verir | sayac değişkenini 0 yap |
+| değişkenini … değiştir | Değeri artırır veya azaltır | sayac değişkenini 1 değiştir (1 artırır), −1 yazarsan 1 azaltır |
+| değişkenin kendisi | Değişkenin o anki değerini verir | sayıyı göster bloğunun içine konur |
 
-**Önemli:** Değişkene ilk değerini genellikle **başlangıçta** bloğunda veririz. Buna değişkeni **hazırlamak** denir.
+**Önemli:** Değişkene ilk değerini genellikle **program başladığında** bloğunda veririz. Buna değişkeni **hazırlamak** denir.
 
 ---
 
@@ -69,7 +69,7 @@ Değişkene içinde ne sakladığını anlatan bir ad ver. "a" yerine "puan" yaz
 
 A butonuna her basışta 1 artan, B butonuna basınca sıfırlanan bir sayaç yapalım. Kantinde sıra sayarken, oyunda tur tutarken ya da tekrar sayarken kullanabilirsin.
 
-![Sayaç kodu: başlangıçta sayaç değeri 0 yapılır ve gösterilir; A düğmesine basıldığında sayaç 1 artırılır ve gösterilir; B düğmesine basıldığında sayaç 0 yapılır ve gösterilir.](./sayac-bloklari.svg)
+![Sayaç kodu: program başladığında sayaç değeri 0 yapılır ve gösterilir; A tuşuna basıldığında sayaç 1 artırılır ve gösterilir; B tuşuna basıldığında sayaç 0 yapılır ve gösterilir.](./sayac-bloklari.svg)
 
 MicroPython'da değişken oluşturmak için adını yazıp **=** ile değer veririz:
 
@@ -108,12 +108,12 @@ Bu bir matematik eşitliği değildir. "Kutudaki değeri al, 1 ekle, sonucu tekr
 1. Değişken nedir?
    a) İçinde değer saklayan, adı olan kutu  b) Kartın bir parçası  c) Bir simge
 2. Değişkene ilk değerini genellikle hangi blokta veririz?
-   a) sürekli  b) başlangıçta  c) A düğmesine basıldığında
-3. "sayac değerini 1 değiştir" bloğu ne yapar?
+   a) her zaman  b) program başladığında  c) A tuşuna basıldığında
+3. "sayac değişkenini 1 değiştir" bloğu ne yapar?
    a) Sayacı 1 yapar  b) Sayacı 1 artırır  c) Sayacı siler
 4. Hangisi daha iyi bir değişken adıdır?
    a) x  b) puan  c) abc
-5. sayac 4 iken "sayac değerini −1 değiştir" çalışırsa sayaç kaç olur?
+5. sayac 4 iken "sayac değişkenini −1 değiştir" çalışırsa sayaç kaç olur?
    a) 5  b) −1  c) 3
 
 <details>

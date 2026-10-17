@@ -35,21 +35,21 @@ Bilgisayarlar saymaya genellikle 0'dan başlar. Bu yüzden ilk sütun x = 0, son
 
 **Bilgisayarsız etkinlik – Piksel oyunu:** Kareli kâğıda 5x5'lik bir kare çiz. Arkadaşın sana koordinatlar söylesin ("x = 2, y = 0"), sen o kareyi boya. Sonunda hangi resim çıktı?
 
-Tek bir LED'i yakmak için **Led** kategorisindeki koordinat bloğunu kullanırız: x ve y değerlerini yazarız, o LED yanar.
+Tek bir LED'i yakmak için **LED** kategorisindeki **led yak** bloğunu kullanırız: x ve y değerlerini yazarız, o LED yanar.
 
 ---
 
 ## 2. Hazır simgeler
 
-**Temel** kategorisindeki **simge göster** bloğunda kalp, mutlu yüz, üzgün yüz, ok, ördek, ev gibi hazır çizimler vardır. Bloktaki küçük resme tıklayıp istediğini seçebilirsin.
+**Temel** kategorisindeki **simgeyi göster** bloğunda kalp, mutlu yüz, üzgün yüz, ok, ördek, ev gibi hazır çizimler vardır. Bloktaki küçük resme tıklayıp istediğini seçebilirsin.
 
 ---
 
-## 3. Kendi çizimin: LED'leri göster
+## 3. Kendi çizimin: led'leri göster
 
-Hazır simgeler yetmezse **LED'leri göster** bloğuyla kendi resmini çizersin. Bloktaki 25 kareden yanmasını istediklerine tıkla; tıklanan kareler kırmızı olur.
+Hazır simgeler yetmezse **led'leri göster** bloğuyla kendi resmini çizersin. Bloktaki 25 kareden yanmasını istediklerine tıkla; tıklanan kareler kırmızı olur.
 
-**Etkinlik:** Önce kareli kâğıtta bir simge tasarla (güneş, ağaç, baş harfin…), sonra **LED'leri göster** bloğuyla ekrana aktar.
+**Etkinlik:** Önce kareli kâğıtta bir simge tasarla (güneş, ağaç, baş harfin…), sonra **led'leri göster** bloğuyla ekrana aktar.
 
 ---
 
@@ -57,8 +57,8 @@ Hazır simgeler yetmezse **LED'leri göster** bloğuyla kendi resmini çizersin.
 
 | Blok | Ne yapar? | Örnek |
 | --- | --- | --- |
-| yazı göster | Yazıyı ekranda sağdan sola kaydırır | "Merhaba" |
-| sayı göster | Sayıyı gösterir; birden çok basamaklıysa kaydırır | 7, 2026 |
+| dizgi göster | Yazıyı ekranda sağdan sola kaydırır | "Merhaba" |
+| sayıyı göster | Sayıyı gösterir; birden çok basamaklıysa kaydırır | 7, 2026 |
 | ekranı temizle | Tüm LED'leri söndürür | — |
 
 :::note[Türkçe karakterler]
@@ -72,7 +72,7 @@ micro:bit ekranı ç, ğ, ı, ö, ş, ü harflerini gösteremeyebilir. Yazılar�
 Çizgi filmler, art arda gösterilen resimlerden oluşur. Her resme **kare** denir. micro:bit'te de birkaç simgeyi art arda göstererek animasyon yaparız.
 
 - **duraklat (ms):** Bir sonraki kareye geçmeden bekler. 1000 ms = 1 saniye.
-- **sürekli** bloğunun içine koyduğun animasyon hiç durmadan tekrar eder.
+- **her zaman** bloğunun içine koyduğun animasyon hiç durmadan tekrar eder.
 
 ---
 
@@ -80,7 +80,7 @@ micro:bit ekranı ç, ğ, ı, ö, ş, ü harflerini gösteremeyebilir. Yazılar�
 
 Kart açıldığında "Merhaba" yazsın, sonra sürekli olarak adını ve kendi çizdiğin simgeyi göstersin.
 
-![İsim kartı kodu: başlangıçta Merhaba yazısı ve mutlu simge; sürekli bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.](./isim-karti-bloklari.svg)
+![İsim kartı kodu: program başladığında Merhaba yazısı ve mutlu simge; her zaman bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.](./isim-karti-bloklari.svg)
 
 MicroPython'da aynı fikir şöyle yazılır:
 
@@ -104,10 +104,10 @@ while True:
 
 ## Kendini dene
 
-1. Kendi baş harfini **LED'leri göster** ile çiz ve 1 saniye göster.
+1. Kendi baş harfini **led'leri göster** ile çiz ve 1 saniye göster.
 2. 3 karelik bir animasyon yap: örneğin küçük kare → büyük kare → boş ekran.
-3. Bugünün tarihini **sayı göster** ile göster.
-4. Koordinat bloğuyla ekranın dört köşesindeki LED'leri sırayla yak.
+3. Bugünün tarihini **sayıyı göster** ile göster.
+4. **led yak** bloğuyla ekranın dört köşesindeki LED'leri sırayla yak.
 
 ---
 
@@ -118,7 +118,7 @@ while True:
 2. Sol üst köşedeki LED'in koordinatı nedir?
    a) x = 1, y = 1  b) x = 0, y = 0  c) x = 5, y = 5
 3. Kendi resmimizi çizmek için hangi bloğu kullanırız?
-   a) LED'leri göster  b) yazı göster  c) sayı göster
+   a) led'leri göster  b) dizgi göster  c) sayıyı göster
 4. 1000 ms kaç saniyedir?
    a) 10 saniye  b) 1 saniye  c) 100 saniye
 5. Art arda gösterilen resimlerle oluşturulan harekete ne denir?
@@ -135,7 +135,7 @@ while True:
 
 ## Öğretmen notu
 
-- **1. ders saati:** LED ekran ve koordinatlar (10 dk), piksel oyunu (15 dk), hazır simgeler ve LED'leri göster (15 dk).
+- **1. ders saati:** LED ekran ve koordinatlar (10 dk), piksel oyunu (15 dk), hazır simgeler ve led'leri göster (15 dk).
 - **2. ders saati:** Yazı ve sayı gösterme (10 dk), animasyon (10 dk), isim kartı projesi (15 dk), mini quiz (5 dk).
 - Piksel oyunu için 5x5 kareli çalışma kâğıdı hazırlamak tasarım aşamasını hızlandırır; öğrenciler önce kâğıtta çizip sonra koda aktarır.
 - Yazı kaydırma yavaştır. Öğrencilere kısa yazılar (3–5 harf) kullanmalarını önerin, yoksa test etmek uzun sürer.

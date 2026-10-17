@@ -1,11 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 910 252" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-<title>Sayaç kodu: başlangıçta sayaç değeri 0 yapılır ve gösterilir; A düğmesine basıldığında sayaç 1 artırılır ve gösterilir; B düğmesine basıldığında sayaç 0 yapılır ve gösterilir.</title>
-<rect width="910" height="252" fill="#FFFFFF"/>
-<text x="455" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">Sayaç</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 831 246" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title>Sayaç kodu: program başladığında sayaç değişkeni 0 yapılır ve gösterilir; A tuşuna basıldığında sayaç 1 artırılır ve gösterilir; B tuşuna basıldığında sayaç 0 yapılır ve gösterilir.</title>
+<rect width="831" height="246" fill="#FFFFFF"/>
+<text x="416" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">Sayaç</text>
 <text x="30" y="76" font-size="13" font-weight="700" fill="#64748B">HAZIRLIK</text>
-<rect x="30" y="90" width="246" height="42" rx="12" fill="#1E90FF"/><rect x="30" y="126" width="18" height="88" fill="#1E90FF"/><text x="44" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">başlangıçta</text><rect x="48" y="132" width="218" height="36" rx="6" fill="#DC143C"/><text x="60" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayaç değerini </text><rect x="184" y="138.0" width="26" height="24" rx="12" fill="#FFFFFF"/><text x="197" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">0</text><text x="215" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> yap</text><rect x="48" y="170" width="218" height="36" rx="6" fill="#1E90FF"/><text x="60" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı göster </text><rect x="159" y="176.0" width="56" height="24" rx="12" fill="#FFFFFF"/><text x="187" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text><rect x="30" y="208" width="147" height="18" rx="6" fill="#1E90FF"/>
-<text x="312" y="76" font-size="13" font-weight="700" fill="#64748B">SAY</text>
-<rect x="312" y="90" width="286" height="42" rx="12" fill="#D400D4"/><rect x="312" y="126" width="18" height="88" fill="#D400D4"/><text x="326" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">A düğmesine basıldığında</text><rect x="330" y="132" width="258" height="36" rx="6" fill="#DC143C"/><text x="342" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayaç değerini </text><rect x="466" y="138.0" width="26" height="24" rx="12" fill="#FFFFFF"/><text x="479" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">1</text><text x="497" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> değiştir</text><rect x="330" y="170" width="258" height="36" rx="6" fill="#1E90FF"/><text x="342" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı göster </text><rect x="441" y="176.0" width="56" height="24" rx="12" fill="#FFFFFF"/><text x="469" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text><rect x="312" y="208" width="172" height="18" rx="6" fill="#D400D4"/>
-<text x="634" y="76" font-size="13" font-weight="700" fill="#64748B">SIFIRLA</text>
-<rect x="634" y="90" width="246" height="42" rx="12" fill="#D400D4"/><rect x="634" y="126" width="18" height="88" fill="#D400D4"/><text x="648" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">B düğmesine basıldığında</text><rect x="652" y="132" width="218" height="36" rx="6" fill="#DC143C"/><text x="664" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayaç değerini </text><rect x="788" y="138.0" width="26" height="24" rx="12" fill="#FFFFFF"/><text x="801" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">0</text><text x="819" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> yap</text><rect x="652" y="170" width="218" height="36" rx="6" fill="#1E90FF"/><text x="664" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı göster </text><rect x="763" y="176.0" width="56" height="24" rx="12" fill="#FFFFFF"/><text x="791" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text><rect x="634" y="208" width="147" height="18" rx="6" fill="#D400D4"/>
+<rect x="30" y="126" width="18" height="84" fill="#1E90FF"/>
+<rect x="30" y="90" width="225" height="42" rx="12" fill="#1E90FF"/>
+<text x="44" y="116" font-size="14" fill="#FFFFFF">program başladığında</text>
+<rect x="48" y="132" width="197" height="36" rx="6" fill="#DC143C"/>
+<text x="60" y="155" font-size="14" fill="#FFFFFF">sayaç değişkenini</text>
+<rect x="178" y="138" width="26" height="24" rx="12" fill="#FFFFFF"/>
+<text x="191" y="155" text-anchor="middle" font-size="13" fill="#0F172A">0</text>
+<text x="210" y="155" font-size="14" fill="#FFFFFF">yap</text>
+<rect x="48" y="170" width="197" height="36" rx="6" fill="#1E90FF"/>
+<text x="60" y="193" font-size="14" fill="#FFFFFF">sayıyı göster</text>
+<rect x="146" y="176" width="50" height="24" rx="12" fill="#FFFFFF"/>
+<text x="171" y="193" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text>
+<rect x="30" y="208" width="135" height="18" rx="6" fill="#1E90FF"/>
+<text x="291" y="76" font-size="13" font-weight="700" fill="#64748B">SAY</text>
+<rect x="291" y="126" width="18" height="84" fill="#D400D4"/>
+<rect x="291" y="90" width="249" height="42" rx="12" fill="#D400D4"/>
+<text x="305" y="116" font-size="14" fill="#FFFFFF">A tuşuna basıldığında</text>
+<rect x="309" y="132" width="221" height="36" rx="6" fill="#DC143C"/>
+<text x="321" y="155" font-size="14" fill="#FFFFFF">sayaç değişkenini</text>
+<rect x="439" y="138" width="26" height="24" rx="12" fill="#FFFFFF"/>
+<text x="452" y="155" text-anchor="middle" font-size="13" fill="#0F172A">1</text>
+<text x="471" y="155" font-size="14" fill="#FFFFFF">değiştir</text>
+<rect x="309" y="170" width="221" height="36" rx="6" fill="#1E90FF"/>
+<text x="321" y="193" font-size="14" fill="#FFFFFF">sayıyı göster</text>
+<rect x="407" y="176" width="50" height="24" rx="12" fill="#FFFFFF"/>
+<text x="432" y="193" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text>
+<rect x="291" y="208" width="150" height="18" rx="6" fill="#D400D4"/>
+<text x="576" y="76" font-size="13" font-weight="700" fill="#64748B">SIFIRLA</text>
+<rect x="576" y="126" width="18" height="84" fill="#D400D4"/>
+<rect x="576" y="90" width="225" height="42" rx="12" fill="#D400D4"/>
+<text x="590" y="116" font-size="14" fill="#FFFFFF">B tuşuna basıldığında</text>
+<rect x="594" y="132" width="197" height="36" rx="6" fill="#DC143C"/>
+<text x="606" y="155" font-size="14" fill="#FFFFFF">sayaç değişkenini</text>
+<rect x="724" y="138" width="26" height="24" rx="12" fill="#FFFFFF"/>
+<text x="737" y="155" text-anchor="middle" font-size="13" fill="#0F172A">0</text>
+<text x="756" y="155" font-size="14" fill="#FFFFFF">yap</text>
+<rect x="594" y="170" width="197" height="36" rx="6" fill="#1E90FF"/>
+<text x="606" y="193" font-size="14" fill="#FFFFFF">sayıyı göster</text>
+<rect x="693" y="176" width="50" height="24" rx="12" fill="#FFFFFF"/>
+<text x="717" y="193" text-anchor="middle" font-size="13" fill="#0F172A">sayaç</text>
+<rect x="576" y="208" width="135" height="18" rx="6" fill="#D400D4"/>
 </svg>

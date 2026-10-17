@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-  <title>Üç döngü türü: sürekli hiç durmaz; tekrarla belli sayıda tekrar edip devam eder; iken koşul doğru oldukça tekrar eder, koşul yanlış olunca biter.</title>
+  <title>Üç döngü türü: her zaman hiç durmaz; tekrarla belli sayıda tekrar edip devam eder; olduğunda koşul doğru oldukça tekrar eder, koşul yanlış olunca biter.</title>
   <defs>
     <marker id="okl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M0 0L10 5L0 10z" fill="#475569"/>
@@ -14,9 +14,9 @@
     <rect x="600" y="62" width="270" height="336" rx="14"/>
   </g>
   <g font-size="20" font-weight="700" fill="#00AA00" text-anchor="middle">
-    <text x="165" y="96">sürekli</text>
-    <text x="450" y="96">tekrarla 4 kez</text>
-    <text x="735" y="96">iken</text>
+    <text x="165" y="96">her zaman</text>
+    <text x="450" y="96">4 kere tekrarla</text>
+    <text x="735" y="96">olduğunda</text>
   </g>
   <g font-size="13" fill="#64748B" text-anchor="middle">
     <text x="165" y="118">Kart açık oldukça hiç durmaz</text>
@@ -35,7 +35,7 @@
   <rect x="370" y="160" width="160" height="44" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
   <text x="450" y="188" text-anchor="middle" font-size="15" fill="#0F172A">Kalp göster</text>
   <path d="M530 182 H557 V142 H450 V156" stroke="#00AA00" stroke-width="2.5" fill="none" marker-end="url(#okl)"/>
-  <text x="470" y="136" font-size="13" font-weight="700" fill="#00AA00">4 kez</text>
+  <text x="470" y="136" font-size="13" font-weight="700" fill="#00AA00">4 kere</text>
   <line x1="450" y1="204" x2="450" y2="238" stroke="#475569" stroke-width="2.5" marker-end="url(#okl)"/>
   <rect x="370" y="242" width="160" height="44" rx="4" fill="#F1F5F9" stroke="#64748B" stroke-width="2"/>
   <text x="450" y="270" text-anchor="middle" font-size="15" fill="#0F172A">Sonraki bloğa geç</text>

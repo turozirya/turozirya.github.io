@@ -42,7 +42,7 @@ Her gün kararlar veririz: "Hava yağmurluysa şemsiye alırım." Bu hafta micro
 - **eğer … ise:** Koşul doğruysa içindeki kodu çalıştırır. Yanlışsa hiçbir şey yapmaz.
 - **eğer … ise / değilse:** Koşul doğruysa birinci bölümü, yanlışsa **değilse** bölümünü çalıştırır.
 
-Bloğun sol altındaki **+** işaretine basarak **değilse eğer** bölümleri ekleyebilir, birden çok koşulu sırayla kontrol edebilirsin.
+Bloğun sol altındaki **+** işaretine basarak **yoksa eğer** bölümleri ekleyebilir, birden çok koşulu sırayla kontrol edebilirsin.
 
 ---
 
@@ -75,7 +75,7 @@ Sınıfta bilgi yarışması yapıyoruz. Her grubun bir micro:bit'i var:
 
 Sonra bloklarla yazalım:
 
-![Puan tabelası kodu: başlangıçta puan 0; A'ya basınca puan 1 artar, B'ye basınca 1 azalır; sürekli bloğunda puan 5 veya fazlaysa mutlu yüz, 0'dan küçükse üzgün yüz, değilse puan gösterilir.](./puan-tabelasi-bloklari.svg)
+![Puan tabelası kodu: program başladığında puan 0; A'ya basınca puan 1 artar, B'ye basınca 1 azalır; her zaman bloğunda puan 5 veya fazlaysa mutlu yüz, 0'dan küçükse üzgün yüz, değilse puan gösterilir.](./puan-tabelasi-bloklari.svg)
 
 MicroPython'da `if`, `elif` (değilse eğer) ve `else` (değilse) kullanırız:
 
@@ -109,7 +109,7 @@ Kart koşulları yukarıdan aşağı sırayla kontrol eder ve ilk doğru olanı 
 1. Kazanma puanını 5'ten 10'a çıkar.
 2. Puan tam 3 olduğunda ekranda bir ok göstersin.
 3. Puan 5'e ulaşınca A'ya basmak puanı artırmasın (puan 5'te dursun).
-4. Kendi koşulunu kur: Logoya dokununca puan çift sayıysa kalp, tek sayıysa küçük kalp göstersin. (İpucu: **Matematik** kategorisindeki "kalan" bloğunu araştır.)
+4. Kendi koşulunu kur: Logoya dokununca puan çift sayıysa kalp, tek sayıysa küçük kalp göstersin. (İpucu: **Matematik** kategorisindeki **remainder of** (bölümden kalan) bloğunu araştır.)
 
 ---
 

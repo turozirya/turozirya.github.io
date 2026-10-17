@@ -1,9 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 422" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-<title>Tekrarla örneği: A'ya basınca kare ve küçük kare simgeleri 3 kez gösterilir, sonra ekran temizlenir. İken örneği: B'ye basınca sayı 5 yapılır; sayı 0'dan büyük oldukça sayı gösterilir, 1 saniye beklenir ve sayı 1 azaltılır; sonunda evet simgesi gösterilir.</title>
-<rect width="700" height="422" fill="#FFFFFF"/>
-<text x="350" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">Tekrarla ve İken Döngüleri</text>
-<text x="30" y="76" font-size="13" font-weight="700" fill="#64748B">TEKRARLA: 3 KEZ YANIP SÖN</text>
-<rect x="30" y="90" width="291" height="42" rx="12" fill="#D400D4"/><rect x="30" y="126" width="18" height="182" fill="#D400D4"/><text x="44" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">A düğmesine basıldığında</text><rect x="48" y="132" width="263" height="38" rx="6" fill="#00AA00"/><rect x="48" y="164" width="18" height="88" fill="#00AA00"/><text x="60" y="156.0" font-size="14" fill="#FFFFFF" xml:space="preserve">tekrarla </text><rect x="135" y="139.0" width="26" height="24" rx="12" fill="#FFFFFF"/><text x="148" y="156.0" text-anchor="middle" font-size="13" fill="#0F172A">3</text><text x="167" y="156.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> kez</text><rect x="66" y="170" width="235" height="36" rx="6" fill="#1E90FF"/><text x="78" y="193.0" font-size="14" fill="#FFFFFF" xml:space="preserve">simge göster </text><rect x="186" y="176.0" width="48" height="24" rx="12" fill="#FFFFFF"/><text x="210" y="193.0" text-anchor="middle" font-size="13" fill="#0F172A">kare</text><rect x="66" y="208" width="235" height="36" rx="6" fill="#1E90FF"/><text x="78" y="231.0" font-size="14" fill="#FFFFFF" xml:space="preserve">simge göster </text><rect x="186" y="214.0" width="93" height="24" rx="12" fill="#FFFFFF"/><text x="232" y="231.0" text-anchor="middle" font-size="13" fill="#0F172A">küçük kare</text><rect x="48" y="246" width="158" height="18" rx="6" fill="#00AA00"/><rect x="48" y="264" width="263" height="36" rx="6" fill="#1E90FF"/><text x="60" y="287.0" font-size="14" fill="#FFFFFF" xml:space="preserve">ekranı temizle</text><rect x="30" y="302" width="175" height="18" rx="6" fill="#D400D4"/>
-<text x="357" y="76" font-size="13" font-weight="700" fill="#64748B">İKEN: GERI SAYIM</text>
-<rect x="357" y="90" width="314" height="42" rx="12" fill="#D400D4"/><rect x="357" y="126" width="18" height="258" fill="#D400D4"/><text x="371" y="116.0" font-size="14" fill="#FFFFFF" xml:space="preserve">B düğmesine basıldığında</text><rect x="375" y="132" width="286" height="36" rx="6" fill="#DC143C"/><text x="387" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı değerini </text><rect x="503" y="138.0" width="26" height="24" rx="12" fill="#FFFFFF"/><text x="515" y="155.0" text-anchor="middle" font-size="13" fill="#0F172A">5</text><text x="534" y="155.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> yap</text><rect x="375" y="170" width="286" height="38" rx="6" fill="#00AA00"/><rect x="375" y="202" width="18" height="126" fill="#00AA00"/><text x="387" y="194.0" font-size="14" fill="#FFFFFF" xml:space="preserve">iken </text><rect x="430" y="177.0" width="78" height="24" rx="12" fill="#FFFFFF"/><text x="469" y="194.0" text-anchor="middle" font-size="13" fill="#0F172A">sayı &gt; 0</text><rect x="393" y="208" width="258" height="36" rx="6" fill="#1E90FF"/><text x="405" y="231.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı göster </text><rect x="504" y="214.0" width="48" height="24" rx="12" fill="#FFFFFF"/><text x="529" y="231.0" text-anchor="middle" font-size="13" fill="#0F172A">sayı</text><rect x="393" y="246" width="258" height="36" rx="6" fill="#1E90FF"/><text x="405" y="269.0" font-size="14" fill="#FFFFFF" xml:space="preserve">duraklat (ms) </text><rect x="521" y="252.0" width="48" height="24" rx="12" fill="#FFFFFF"/><text x="545" y="269.0" text-anchor="middle" font-size="13" fill="#0F172A">1000</text><rect x="393" y="284" width="258" height="36" rx="6" fill="#DC143C"/><text x="405" y="307.0" font-size="14" fill="#FFFFFF" xml:space="preserve">sayı değerini </text><rect x="521" y="290.0" width="33" height="24" rx="12" fill="#FFFFFF"/><text x="537" y="307.0" text-anchor="middle" font-size="13" fill="#0F172A">-1</text><text x="560" y="307.0" font-size="14" fill="#FFFFFF" xml:space="preserve"> değiştir</text><rect x="375" y="322" width="172" height="18" rx="6" fill="#00AA00"/><rect x="375" y="340" width="286" height="36" rx="6" fill="#1E90FF"/><text x="387" y="363.0" font-size="14" fill="#FFFFFF" xml:space="preserve">simge göster </text><rect x="495" y="346.0" width="48" height="24" rx="12" fill="#FFFFFF"/><text x="519" y="363.0" text-anchor="middle" font-size="13" fill="#0F172A">evet</text><rect x="357" y="378" width="188" height="18" rx="6" fill="#D400D4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 623 418" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+<title>Tekrarla örneği: A&#x27;ya basınca kare ve küçük kare simgeleri 3 kez gösterilir, sonra ekran temizlenir. Olduğunda örneği: B&#x27;ye basınca sayı 5 yapılır; sayı 0&#x27;dan büyük oldukça sayı gösterilir, 1 saniye beklenir ve sayı 1 azaltılır; sonunda evet simgesi gösterilir.</title>
+<rect width="623" height="418" fill="#FFFFFF"/>
+<text x="311" y="38" text-anchor="middle" font-size="24" font-weight="700" fill="#0F172A">Tekrarla ve Olduğunda Döngüleri</text>
+<text x="30" y="76" font-size="13" font-weight="700" fill="#64748B">TEKRARLA: 3 KERE YANIP SÖN</text>
+<rect x="30" y="126" width="18" height="180" fill="#D400D4"/>
+<rect x="30" y="90" width="259" height="42" rx="12" fill="#D400D4"/>
+<text x="44" y="116" font-size="14" fill="#FFFFFF">A tuşuna basıldığında</text>
+<rect x="48" y="164" width="18" height="84" fill="#00AA00"/>
+<rect x="48" y="132" width="231" height="38" rx="6" fill="#00AA00"/>
+<rect x="60" y="139" width="26" height="24" rx="12" fill="#FFFFFF"/>
+<text x="73" y="156" text-anchor="middle" font-size="13" fill="#0F172A">3</text>
+<text x="92" y="156" font-size="14" fill="#FFFFFF">kere tekrarla</text>
+<rect x="66" y="170" width="203" height="36" rx="6" fill="#1E90FF"/>
+<text x="78" y="193" font-size="14" fill="#FFFFFF">simgeyi göster</text>
+<rect x="177" y="176" width="41" height="24" rx="12" fill="#FFFFFF"/>
+<text x="198" y="193" text-anchor="middle" font-size="13" fill="#0F172A">kare</text>
+<rect x="66" y="208" width="203" height="36" rx="6" fill="#1E90FF"/>
+<text x="78" y="231" font-size="14" fill="#FFFFFF">simgeyi göster</text>
+<rect x="177" y="214" width="80" height="24" rx="12" fill="#FFFFFF"/>
+<text x="217" y="231" text-anchor="middle" font-size="13" fill="#0F172A">küçük kare</text>
+<rect x="48" y="246" width="139" height="18" rx="6" fill="#00AA00"/>
+<rect x="48" y="266" width="231" height="36" rx="6" fill="#1E90FF"/>
+<text x="60" y="289" font-size="14" fill="#FFFFFF">ekranı temizle</text>
+<rect x="30" y="304" width="155" height="18" rx="6" fill="#D400D4"/>
+<text x="325" y="76" font-size="13" font-weight="700" fill="#64748B">OLDUĞUNDA: GERİ SAYIM</text>
+<rect x="325" y="126" width="18" height="256" fill="#D400D4"/>
+<rect x="325" y="90" width="268" height="42" rx="12" fill="#D400D4"/>
+<text x="339" y="116" font-size="14" fill="#FFFFFF">B tuşuna basıldığında</text>
+<rect x="343" y="132" width="240" height="36" rx="6" fill="#DC143C"/>
+<text x="355" y="155" font-size="14" fill="#FFFFFF">sayı değişkenini</text>
+<rect x="461" y="138" width="26" height="24" rx="12" fill="#FFFFFF"/>
+<text x="474" y="155" text-anchor="middle" font-size="13" fill="#0F172A">5</text>
+<text x="493" y="155" font-size="14" fill="#FFFFFF">yap</text>
+<rect x="343" y="202" width="18" height="122" fill="#00AA00"/>
+<rect x="343" y="170" width="240" height="38" rx="6" fill="#00AA00"/>
+<rect x="355" y="177" width="64" height="24" rx="12" fill="#FFFFFF"/>
+<text x="387" y="194" text-anchor="middle" font-size="13" fill="#0F172A">sayı &gt; 0</text>
+<text x="425" y="194" font-size="14" fill="#FFFFFF">olduğunda</text>
+<rect x="361" y="208" width="212" height="36" rx="6" fill="#1E90FF"/>
+<text x="373" y="231" font-size="14" fill="#FFFFFF">sayıyı göster</text>
+<rect x="459" y="214" width="39" height="24" rx="12" fill="#FFFFFF"/>
+<text x="479" y="231" text-anchor="middle" font-size="13" fill="#0F172A">sayı</text>
+<rect x="361" y="246" width="212" height="36" rx="6" fill="#1E90FF"/>
+<text x="373" y="269" font-size="14" fill="#FFFFFF">duraklat (ms)</text>
+<rect x="464" y="252" width="46" height="24" rx="12" fill="#FFFFFF"/>
+<text x="487" y="269" text-anchor="middle" font-size="13" fill="#0F172A">1000</text>
+<rect x="361" y="284" width="212" height="36" rx="6" fill="#DC143C"/>
+<text x="373" y="307" font-size="14" fill="#FFFFFF">sayı değişkenini</text>
+<rect x="479" y="290" width="28" height="24" rx="12" fill="#FFFFFF"/>
+<text x="493" y="307" text-anchor="middle" font-size="13" fill="#0F172A">-1</text>
+<text x="513" y="307" font-size="14" fill="#FFFFFF">değiştir</text>
+<rect x="343" y="322" width="144" height="18" rx="6" fill="#00AA00"/>
+<rect x="343" y="342" width="240" height="36" rx="6" fill="#1E90FF"/>
+<text x="355" y="365" font-size="14" fill="#FFFFFF">simgeyi göster</text>
+<rect x="454" y="348" width="42" height="24" rx="12" fill="#FFFFFF"/>
+<text x="475" y="365" text-anchor="middle" font-size="13" fill="#0F172A">evet</text>
+<rect x="325" y="380" width="161" height="18" rx="6" fill="#D400D4"/>
 </svg>

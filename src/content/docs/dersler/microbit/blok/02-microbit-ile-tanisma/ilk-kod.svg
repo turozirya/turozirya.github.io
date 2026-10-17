@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
-  <title>İlk kod: başlangıçta kalp simgesi göster; blok, MicroPython ve sonuç</title>
+  <title>İlk kod: program başladığında kalp simgesi göster; blok, MicroPython ve sonuç</title>
   <defs>
     <marker id="ok5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M0 0L10 5L0 10z" fill="#475569"/>
@@ -19,9 +19,9 @@
 
   <!-- Blok -->
   <rect x="40" y="82" width="240" height="100" rx="8" fill="#1E90FF"/>
-  <text x="58" y="108" font-size="15" font-weight="700" fill="#FFFFFF">başlangıçta</text>
+  <text x="58" y="108" font-size="15" font-weight="700" fill="#FFFFFF">program başladığında</text>
   <rect x="58" y="124" width="200" height="38" rx="5" fill="#4C9BE8" stroke="#1873CC"/>
-  <text x="72" y="148" font-size="14" fill="#FFFFFF">simge göster ♥</text>
+  <text x="72" y="148" font-size="14" fill="#FFFFFF">simgeyi göster ♥</text>
 
   <text x="305" y="141" text-anchor="middle" font-size="28" font-weight="700" fill="#94A3B8">=</text>
 

@@ -34,9 +34,9 @@
     <text x="130" y="133">A'ya basıldı</text>
     <text x="130" y="223">B'ye basıldı</text>
     <text x="130" y="313">A ve B'ye birlikte</text>
-    <text x="400" y="133">A düğmesine basıldığında</text>
-    <text x="400" y="223">B düğmesine basıldığında</text>
-    <text x="400" y="313">A+B düğmesine basıldığında</text>
+    <text x="400" y="133">A tuşuna basıldığında</text>
+    <text x="400" y="223">B tuşuna basıldığında</text>
+    <text x="400" y="313">A+B tuşuna basıldığında</text>
     <text x="670" y="133">Gülen yüz</text>
     <text x="670" y="223">Üzgün yüz</text>
     <text x="670" y="313">Kalp</text>

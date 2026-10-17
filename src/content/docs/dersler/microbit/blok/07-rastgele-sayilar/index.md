@@ -37,13 +37,13 @@ Zar atmak, yazı-tura oynamak, torbadan kura çekmek… Sonucunu önceden bileme
 
 ## 2. Rastgele sayı bloğu
 
-**Matematik** kategorisindeki rastgele seçme bloğu, iki sayı arasında rastgele bir **tam sayı** seçer. Seçilebilecek sayılara iki uçtaki sayılar da dahildir: 1 ile 6 arası denince 1, 2, 3, 4, 5 veya 6 gelebilir.
+**Matematik** kategorisindeki **rastgele değer seçimi … ila …** bloğu, iki sayı arasında rastgele bir **tam sayı** seçer. Seçilebilecek sayılara iki uçtaki sayılar da dahildir: 1 ila 6 denince 1, 2, 3, 4, 5 veya 6 gelebilir.
 
 ---
 
 ## 3. Sallama olayı
 
-micro:bit'in hareket sensörü kartın sallandığını algılar. **Giriş** kategorisindeki **sallandığında** bloğu, kart sallanınca içindeki kodu çalıştırır. Bloktaki "sallandığında" yazısına tıklayarak eğme, ters çevirme gibi başka hareketler de seçebilirsin.
+micro:bit'in hareket sensörü kartın sallandığını algılar. **Girdi** kategorisindeki **salla ise** bloğu, kart sallanınca içindeki kodu çalıştırır. Bloktaki "salla" yazısına tıklayarak eğme, ters çevirme gibi başka hareketler de seçebilirsin.
 
 :::caution[Güvenli sallama]
 Kartı sallarken sıkıca tut ve kablosunu çıkar; pil yuvasıyla çalıştır. Kartı fırlatma ya da yere vurma!
@@ -55,7 +55,7 @@ Kartı sallarken sıkıca tut ve kablosunu çıkar; pil yuvasıyla çalıştır.
 
 Kartı salladığında 1 ile 6 arasında rastgele bir sayı göstersin.
 
-![Zar kodu: sallandığında 1 ile 6 arasında rastgele sayı gösterilir. Taş-kâğıt-makas kodu: sallandığında seçim değişkenine 1 ile 3 arasında rastgele sayı atanır; 1 ise taş, 2 ise kâğıt, değilse makas deseni gösterilir.](./zar-tkm-bloklari.svg)
+![Zar kodu: salla ise 1 ila 6 arasında rastgele sayı gösterilir. Taş-kâğıt-makas kodu: salla ise seçim değişkenine 1 ile 3 arasında rastgele sayı atanır; 1 ise taş, 2 ise kâğıt, değilse makas deseni gösterilir.](./zar-tkm-bloklari.svg)
 
 **Deney:** Zarı 30 kez salla ve her sayının kaç kez geldiğini bir tabloya yaz. Hangi sayı en çok geldi? Arkadaşlarının sonuçlarıyla karşılaştır.
 
@@ -105,14 +105,14 @@ while True:
 
 1. Hangisi rastgele bir olaydır?
    a) Güneşin doğudan doğması  b) Zar atmak  c) Saatin 12'den sonra 1 olması
-2. "1 ile 6 arasında rastgele seç" bloğu hangi sayıyı veremez?
+2. "rastgele değer seçimi 1 ila 6" bloğu hangi sayıyı veremez?
    a) 1  b) 6  c) 7
 3. Kartın sallandığını hangi parça algılar?
    a) Hoparlör  b) Hareket sensörü  c) LED ekran
 4. Taş-kâğıt-makas oyununda sayıyı neden bir değişkende saklarız?
    a) Aynı sayıyı koşullarda tekrar tekrar kontrol etmek için  b) Kart daha hızlı çalışsın diye  c) Ekran parlasın diye
 5. Rastgele sayı bloğu hangi kategoridedir?
-   a) Temel  b) Matematik  c) Led
+   a) Temel  b) Matematik  c) LED
 
 <details>
 <summary>Cevap anahtarı</summary>
