@@ -35,6 +35,11 @@ header.header {
 header.header .site-title {
 	color: #ffffff;
 }
+/* Tema menüsünün açılan seçenekleri beyaz zeminde siyah yazı (açık tema) */
+:root[data-theme='light'] header.header option {
+	background-color: #ffffff;
+	color: #1b1b1f;
+}
 
 /* Ana sayfa düğmesi */
 .hero .sl-link-button.primary {
