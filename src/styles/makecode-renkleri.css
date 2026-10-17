@@ -47,3 +47,8 @@ header.header .site-title {
 :root[data-theme='light'] .sl-markdown-content table th {
 	background-color: #ecf0f1;
 }
+
+/* Ders görselleri */
+.sl-markdown-content img {
+	border-radius: 0.5rem;
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>Robotun 3 parçası: sensör, işlemci, eylemci</title>
+  <defs>
+    <marker id="ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#FFFFFF"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">Robotun 3 Parçası</text>
+
+  <!-- Sensör -->
+  <rect x="40" y="70" width="210" height="160" rx="16" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+  <text x="145" y="108" text-anchor="middle" font-size="24" font-weight="700" fill="#1D4ED8">SENSÖR</text>
+  <text x="145" y="136" text-anchor="middle" font-size="17" font-weight="600" fill="#0F172A">Algılar</text>
+  <text x="145" y="172" text-anchor="middle" font-size="14" fill="#334155">İnsanda: göz, kulak</text>
+  <text x="145" y="198" text-anchor="middle" font-size="14" fill="#334155">Örnek: buton, ışık</text>
+
+  <!-- İşlemci -->
+  <rect x="295" y="70" width="210" height="160" rx="16" fill="#FFEDD5" stroke="#EA580C" stroke-width="3"/>
+  <text x="400" y="108" text-anchor="middle" font-size="24" font-weight="700" fill="#C2410C">İŞLEMCİ</text>
+  <text x="400" y="136" text-anchor="middle" font-size="17" font-weight="600" fill="#0F172A">Karar verir</text>
+  <text x="400" y="172" text-anchor="middle" font-size="14" fill="#334155">İnsanda: beyin</text>
+  <text x="400" y="198" text-anchor="middle" font-size="14" fill="#334155">Örnek: micro:bit çipi</text>
+
+  <!-- Eylemci -->
+  <rect x="550" y="70" width="210" height="160" rx="16" fill="#DCFCE7" stroke="#16A34A" stroke-width="3"/>
+  <text x="655" y="108" text-anchor="middle" font-size="24" font-weight="700" fill="#15803D">EYLEMCİ</text>
+  <text x="655" y="136" text-anchor="middle" font-size="17" font-weight="600" fill="#0F172A">Hareket eder</text>
+  <text x="655" y="172" text-anchor="middle" font-size="14" fill="#334155">İnsanda: kaslar</text>
+  <text x="655" y="198" text-anchor="middle" font-size="14" fill="#334155">Örnek: motor, LED</text>
+
+  <line x1="252" y1="150" x2="291" y2="150" stroke="#475569" stroke-width="3" marker-end="url(#ok)"/>
+  <line x1="507" y1="150" x2="546" y2="150" stroke="#475569" stroke-width="3" marker-end="url(#ok)"/>
+
+  <!-- Örnek -->
+  <line x1="40" y1="262" x2="760" y2="262" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="400" y="296" text-anchor="middle" font-size="18" font-weight="700" fill="#0F172A">Örnek: Otomatik Kapı</text>
+
+  <rect x="55" y="316" width="180" height="48" rx="24" fill="#FFFFFF" stroke="#2563EB" stroke-width="2"/>
+  <text x="145" y="346" text-anchor="middle" font-size="15" fill="#0F172A">Biri yaklaşıyor</text>
+  <rect x="310" y="316" width="180" height="48" rx="24" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"/>
+  <text x="400" y="346" text-anchor="middle" font-size="15" fill="#0F172A">"Kapıyı aç" kararı</text>
+  <rect x="565" y="316" width="180" height="48" rx="24" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+  <text x="655" y="346" text-anchor="middle" font-size="15" fill="#0F172A">Motor kapıyı açar</text>
+
+  <line x1="237" y1="340" x2="306" y2="340" stroke="#475569" stroke-width="2" marker-end="url(#ok)"/>
+  <line x1="492" y1="340" x2="561" y2="340" stroke="#475569" stroke-width="2" marker-end="url(#ok)"/>
+</svg>

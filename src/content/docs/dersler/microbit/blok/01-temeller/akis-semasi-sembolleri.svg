@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 490" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <title>Akış şeması sembolleri</title>
+  <defs>
+    <marker id="ok2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="800" height="490" fill="#FFFFFF"/>
+  <text x="400" y="42" text-anchor="middle" font-size="26" font-weight="700" fill="#0F172A">Akış Şeması Sembolleri</text>
+
+  <text x="130" y="82" text-anchor="middle" font-size="14" font-weight="700" fill="#64748B">SEMBOL</text>
+  <text x="250" y="82" font-size="14" font-weight="700" fill="#64748B">ADI</text>
+  <text x="450" y="82" font-size="14" font-weight="700" fill="#64748B">NE ZAMAN?</text>
+  <line x1="40" y1="94" x2="760" y2="94" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Başla/Bitir -->
+  <rect x="60" y="108" width="140" height="48" rx="24" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2.5"/>
+  <text x="130" y="138" text-anchor="middle" font-size="15" fill="#0F172A">Başla</text>
+  <text x="250" y="138" font-size="18" font-weight="700" fill="#0F172A">Başla / Bitir</text>
+  <text x="450" y="138" font-size="16" fill="#334155">Algoritmanın başı ve sonu</text>
+
+  <!-- İşlem -->
+  <rect x="60" y="182" width="140" height="48" rx="4" fill="#DBEAFE" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="130" y="212" text-anchor="middle" font-size="15" fill="#0F172A">Fırçayı ıslat</text>
+  <text x="250" y="212" font-size="18" font-weight="700" fill="#0F172A">İşlem</text>
+  <text x="450" y="212" font-size="16" fill="#334155">Yapılacak bir iş</text>
+
+  <!-- Giriş/Çıkış -->
+  <polygon points="80,256 210,256 180,304 50,304" fill="#DCFCE7" stroke="#16A34A" stroke-width="2.5"/>
+  <text x="130" y="286" text-anchor="middle" font-size="15" fill="#0F172A">Sayıyı oku</text>
+  <text x="250" y="286" font-size="18" font-weight="700" fill="#0F172A">Giriş / Çıkış</text>
+  <text x="450" y="286" font-size="16" fill="#334155">Bilgi almak veya göstermek</text>
+
+  <!-- Karar -->
+  <polygon points="130,324 205,362 130,400 55,362" fill="#FFEDD5" stroke="#EA580C" stroke-width="2.5"/>
+  <text x="130" y="367" text-anchor="middle" font-size="14" fill="#0F172A">Yağmur var mı?</text>
+  <text x="250" y="367" font-size="18" font-weight="700" fill="#0F172A">Karar</text>
+  <text x="450" y="358" font-size="16" fill="#334155">Evet / Hayır sorusu,</text>
+  <text x="450" y="380" font-size="16" fill="#334155">yol ikiye ayrılır</text>
+
+  <!-- Ok -->
+  <line x1="70" y1="446" x2="190" y2="446" stroke="#475569" stroke-width="3" marker-end="url(#ok2)"/>
+  <text x="250" y="452" font-size="18" font-weight="700" fill="#0F172A">Akış oku</text>
+  <text x="450" y="452" font-size="16" fill="#334155">Adımların sırası ve yönü</text>
+</svg>

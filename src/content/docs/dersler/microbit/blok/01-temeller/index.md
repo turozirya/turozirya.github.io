@@ -34,6 +34,8 @@ Robot; çevresini algılayan, algıladığına göre karar veren ve bu karara g�
 | **İşlemci** (beyin) | Bilgiyi değerlendirir, karar verir | Beyin | micro:bit'in içindeki çip |
 | **Eylemci** (hareket eden parça) | Kararı uygular | Kaslar, ses telleri | Motor, LED, hoparlör |
 
+![Robotun 3 parçası: sensör algılar, işlemci karar verir, eylemci hareket eder. Otomatik kapı örneğinde sensör yaklaşan kişiyi algılar, işlemci kapıyı açma kararı verir, motor kapıyı açar.](./robot-parcalari.svg)
+
 **Örnek – Otomatik kapı:**
 Kapının üstündeki sensör birinin yaklaştığını algılar → işlemci "kapıyı aç" kararı verir → motor (eylemci) kapıyı açar.
 
@@ -66,27 +68,21 @@ Başka örnekler: kek tarifi, okula gidiş yolu, çay demleme, bir oyunun kurall
 
 **Akış şeması**, bir algoritmayı şekillerle gösterir. Her şeklin bir anlamı vardır:
 
+![Akış şeması sembolleri: oval başla/bitir, dikdörtgen işlem, paralelkenar giriş/çıkış, eşkenar dörtgen karar, ok akış yönü.](./akis-semasi-sembolleri.svg)
+
 | Sembol | Adı | Ne zaman kullanılır? |
 | --- | --- | --- |
-| ⬭ Oval | Başla / Bitir | Algoritmanın başı ve sonu |
-| ▭ Dikdörtgen | İşlem | Yapılacak bir iş: "Fırçayı ıslat" |
-| ▱ Paralelkenar | Giriş / Çıkış | Bilgi almak veya göstermek: "Sayıyı oku", "Ekrana yaz" |
-| ◇ Eşkenar dörtgen | Karar | Evet/Hayır sorusu: "Yağmur yağıyor mu?" |
-| → Ok | Akış yönü | Adımların hangi sırayla ilerlediği |
+| Oval | Başla / Bitir | Algoritmanın başı ve sonu |
+| Dikdörtgen | İşlem | Yapılacak bir iş: "Fırçayı ıslat" |
+| Paralelkenar | Giriş / Çıkış | Bilgi almak veya göstermek: "Sayıyı oku", "Ekrana yaz" |
+| Eşkenar dörtgen | Karar | Evet/Hayır sorusu: "Yağmur yağıyor mu?" |
+| Ok | Akış yönü | Adımların hangi sırayla ilerlediği |
 
 **Örnek – Dışarı çıkarken şemsiye almalı mıyım?**
 
-```
-   ( Başla )
-       ↓
- [ Hava durumuna bak ]
-       ↓
- < Yağmur yağıyor mu? >
-   Evet ↓        ↘ Hayır
- [ Şemsiye al ]    ↓
-       ↓          ↓
-   ( Dışarı çık – Bitir )
-```
+![Şemsiye akış şeması: Başla, hava durumuna bak, yağmur yağıyor mu? Evet ise şemsiye al ve dışarı çık; hayır ise doğrudan dışarı çık. Bitir.](./semsiye-akis-semasi.svg)
+
+Karar adımında yol ikiye ayrılır: "Evet" cevabında önce şemsiye alınır, "Hayır" cevabında bu adım atlanır. İki yol da "Dışarı çık" adımında birleşir.
 
 **Etkinlik:** "Sabah okula hazırlanma" algoritmanın akış şemasını çiz. En az bir karar (◇) kullan. Örneğin: "Hava soğuk mu?"
 
