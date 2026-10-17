@@ -1,0 +1,49 @@
+/* MakeCode micro:bit editörünün renkleri (pxt-microbit teması):
+   mor #6633cc ana renk, mavi #3454D1, editör zemini #ecf0f1. */
+
+:root {
+	--mc-mor: #6633cc;
+	--mc-mavi: #3454d1;
+
+	/* Koyu tema */
+	--sl-color-accent-low: #2a1859;
+	--sl-color-accent: #8f66e8;
+	--sl-color-accent-high: #ddd0fb;
+}
+
+:root[data-theme='light'] {
+	--sl-color-accent-low: #e6dcfa;
+	--sl-color-accent: #6633cc;
+	--sl-color-accent-high: #3a1d78;
+	--sl-color-bg-nav: #ffffff;
+	--sl-color-bg-sidebar: #f5f7f8;
+}
+
+/* Üst çubuk MakeCode'daki gibi mor */
+header.header {
+	background-color: var(--mc-mor);
+	border-bottom-color: transparent;
+	--sl-color-white: #ffffff;
+	--sl-color-text-accent: #ffffff;
+	--sl-color-gray-1: #f3eefe;
+	--sl-color-gray-2: #e6dcfa;
+	--sl-color-gray-3: #d2c2f5;
+	--sl-color-gray-5: rgba(255, 255, 255, 0.35);
+	--sl-color-gray-6: rgba(255, 255, 255, 0.14);
+	--sl-color-black: #6633cc;
+}
+header.header .site-title {
+	color: #ffffff;
+}
+
+/* Ana sayfa düğmesi */
+.hero .sl-link-button.primary {
+	background: var(--mc-mor);
+	border-color: var(--mc-mor);
+	color: #ffffff;
+}
+
+/* Kod blokları ve tablolar için MakeCode editör zemini (açık tema) */
+:root[data-theme='light'] .sl-markdown-content table th {
+	background-color: #ecf0f1;
+}
