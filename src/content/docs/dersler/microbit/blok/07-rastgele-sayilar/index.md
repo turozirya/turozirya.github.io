@@ -1,6 +1,4 @@
 ---
-# Yayına hazır olunca bu satırı sil:
-draft: true
 title: "7. Hafta – Rastgele Sayılar"
 description: Rastgele sayı üretiyor, sallama hareketini kullanıyor; elektronik zar ve taş-kâğıt-makas yapıyoruz.
 sidebar:
@@ -47,6 +45,8 @@ Zar atmak, yazı-tura oynamak, torbadan kura çekmek… Sonucunu önceden bileme
 
 micro:bit'in hareket sensörü kartın sallandığını algılar. **Girdi** kategorisindeki **salla ise** bloğu, kart sallanınca içindeki kodu çalıştırır. Bloktaki "salla" yazısına tıklayarak eğme, ters çevirme gibi başka hareketler de seçebilirsin.
 
+![salla ise bloğundaki açılır listede salla, logo yukarı, logo aşağı, ekran yukarı, ekran aşağı, sola eğin, sağa eğin, serbest düşüş, 3g, 6g, 8g seçenekleri.](./salla.png)
+
 :::caution[Güvenli sallama]
 Kartı sallarken sıkıca tut ve kablosunu çıkar; pil yuvasıyla çalıştır. Kartı fırlatma ya da yere vurma!
 :::
@@ -57,9 +57,13 @@ Kartı sallarken sıkıca tut ve kablosunu çıkar; pil yuvasıyla çalıştır.
 
 Kartı salladığında 1 ile 6 arasında rastgele bir sayı göstersin.
 
-![Zar kodu: salla ise 1 ila 6 arasında rastgele sayı gösterilir. Taş-kâğıt-makas kodu: salla ise seçim değişkenine 1 ile 3 arasında rastgele sayı atanır; 1 ise taş, 2 ise kâğıt, değilse makas deseni gösterilir.](./zar-tkm-bloklari.svg)
+![Zar kodu: salla ise 1 ila 6 arasında rastgele sayı gösterilir.](./zar.png)
 
-**Deney:** Zarı 30 kez salla ve her sayının kaç kez geldiğini bir tabloya yaz. Hangi sayı en çok geldi? Arkadaşlarının sonuçlarıyla karşılaştır.
+**Canlı dene:** <a href="https://makecode.microbit.org/_JHC9RcEyw0D4" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
+
+<div class="etkinlik">
+<strong>Deney:</strong> Zarı 30 kez salla ve her sayının kaç kez geldiğini bir tabloya yaz. Hangi sayı en çok geldi? Arkadaşlarının sonuçlarıyla karşılaştır.
+</div>
 
 ---
 
@@ -67,7 +71,9 @@ Kartı salladığında 1 ile 6 arasında rastgele bir sayı göstersin.
 
 Bilgisayar taş, kâğıt ya da makas seçemez; ama sayı seçebilir. Her sayıya bir anlam verelim: **1 = taş, 2 = kâğıt, 3 = makas**. Kart rastgele sayıyı bir değişkene koyar, sonra koşullarla hangi deseni göstereceğine karar verir.
 
-![Kart sallanınca 1, 2 veya 3 rastgele seçilir. 1 taş, 2 kâğıt, 3 makas desenini gösterir.](./tkm-desenler.svg)
+![Kart sallanınca seçim değişkenine 1 ile 3 arasında rastgele sayı atanır; 1 ise taş, 2 ise kâğıt, değilse makas deseni gösterilir.](./tkm.png)
+
+**Canlı dene:** <a href="https://makecode.microbit.org/_CKsHTe82iYXo" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
 
 İki arkadaş kartlarını aynı anda sallar; ekranlara bakıp kimin kazandığına karar verirler. Taş makası, makas kâğıdı, kâğıt taşı yener.
 
@@ -105,16 +111,26 @@ while True:
 
 ## Mini quiz
 
-1. Hangisi rastgele bir olaydır?
-   a) Güneşin doğudan doğması  b) Zar atmak  c) Saatin 12'den sonra 1 olması
-2. "rastgele değer seçimi 1 ila 6" bloğu hangi sayıyı veremez?
-   a) 1  b) 6  c) 7
-3. Kartın sallandığını hangi parça algılar?
-   a) Hoparlör  b) Hareket sensörü  c) LED ekran
-4. Taş-kâğıt-makas oyununda sayıyı neden bir değişkende saklarız?
-   a) Aynı sayıyı koşullarda tekrar tekrar kontrol etmek için  b) Kart daha hızlı çalışsın diye  c) Ekran parlasın diye
-5. Rastgele sayı bloğu hangi kategoridedir?
-   a) Temel  b) Matematik  c) LED
+1. Hangisi rastgele bir olaydır?  
+   a) Güneşin doğudan doğması  
+   b) Zar atmak  
+   c) Saatin 12'den sonra 1 olması
+2. "rastgele değer seçimi 1 ila 6" bloğu hangi sayıyı veremez?  
+   a) 1  
+   b) 6  
+   c) 7
+3. Kartın sallandığını hangi parça algılar?  
+   a) Hoparlör  
+   b) Hareket sensörü  
+   c) LED ekran
+4. Taş-kâğıt-makas oyununda sayıyı neden bir değişkende saklarız?  
+   a) Aynı sayıyı koşullarda tekrar tekrar kontrol etmek için  
+   b) Kart daha hızlı çalışsın diye  
+   c) Ekran parlasın diye
+5. Rastgele sayı bloğu hangi kategoridedir?  
+   a) Temel  
+   b) Matematik  
+   c) LED
 
 <details>
 <summary>Cevap anahtarı</summary>

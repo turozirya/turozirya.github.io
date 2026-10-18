@@ -15,7 +15,8 @@ OLCEK = 0.9
 _f14 = ImageFont.truetype(FONT, 14)
 _f13 = ImageFont.truetype(FONT, 13)
 
-MAVI, MOR, KIRMIZI, TURKUAZ, YESIL, MATEMATIK = "#1E90FF", "#D400D4", "#DC143C", "#00A4A6", "#00AA00", "#9400D3"
+MAVI, MOR, KIRMIZI, TURKUAZ, YESIL, MATEMATIK, GIRDI, MUZIK, RADYO = (
+    "#1E90FF", "#D400D4", "#DC143C", "#00A4A6", "#00AA00", "#9400D3", "#5C81A6", "#D83B01", "#E3008C")
 BOSLUK = 6
 
 
@@ -195,6 +196,17 @@ sayi = lambda deger: K(MAVI, ["sayıyı göster", deger if isinstance(deger, R) 
 yap = lambda ad, d: K(KIRMIZI, [f"{ad} değişkenini", d if isinstance(d, R) else P(d), "yap"])
 degistir = lambda ad, d: K(KIRMIZI, [f"{ad} değişkenini", P(d), "değiştir"])
 rastgele = lambda a, b: R(MATEMATIK, ["rastgele değer seçimi", P(a), "ila", P(b)])
+isik_sev = lambda: R(GIRDI, ["ışık seviyesi"])
+sicaklik = lambda: R(GIRDI, ["sıcaklık (°C)"])
+ivme = lambda eksen: R(GIRDI, ["ivme (mg)", P(eksen)])
+led_desen = lambda ad: K(MAVI, ["led'leri göster", P(ad)])
+dizgi = lambda s: K(MAVI, ["dizgi göster", P(f'"{s}"')])
+logo_tus = lambda *ic: Kap(MOR, ["on logo pressed"], list(ic), sapka=True)
+orta_do = lambda: R(MUZIK, ["Orta Do"])
+ses_seviyesi = lambda: R(GIRDI, ["sound level"])
+sinyal_gucu = lambda: R(RADYO, ["alınan paketin sinyal gücü"])
+pin_tus = lambda ad, *ic: Kap(MOR, [f"pin {ad} basıldığında"], list(ic), sapka=True)
+radyo_al = lambda tur, param, *ic: Kap(RADYO, [f"radyo ile {tur} alındığında", P(param)], list(ic), sapka=True)
 
 diyagram("isim-karti-bloklari.svg", "İsim Kartı",
          "İsim kartı kodu: program başladığında Merhaba yazısı ve mutlu simge; her zaman bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.",
@@ -227,11 +239,3 @@ diyagram("zar-tkm-bloklari.svg", "Zar ve Taş-Kâğıt-Makas",
                                      EgerDegilse("seçim = 1", [K(MAVI, ["led'leri göster", P("taş")])],
                                                  [EgerDegilse("seçim = 2", [K(MAVI, ["led'leri göster", P("kâğıt")])],
                                                               [K(MAVI, ["led'leri göster", P("makas")])])])))]])
-
-diyagram("dongu-bloklari.svg", "Tekrarla ve Olduğunda Döngüleri",
-         "Tekrarla örneği: A'ya basınca kare ve küçük kare simgeleri 3 kez gösterilir, sonra ekran temizlenir. Olduğunda örneği: B'ye basınca sayı 5 yapılır; sayı 0'dan büyük oldukça sayı gösterilir, 1 saniye beklenir ve sayı 1 azaltılır; sonunda evet simgesi gösterilir.",
-         [[("TEKRARLA: 3 KERE YANIP SÖN", tus("A", Kap(YESIL, [P("3"), "kere tekrarla"], [simge("kare"), simge("küçük kare")]),
-                                               K(MAVI, ["ekranı temizle"]))),
-           ("OLDUĞUNDA: GERİ SAYIM", tus("B", yap("sayı", "5"),
-                                          Kap(YESIL, [P("sayı > 0"), "olduğunda"], [sayi("sayı"), K(MAVI, ["duraklat (ms)", P("1000")]), degistir("sayı", "-1")]),
-                                          simge("evet")))]])

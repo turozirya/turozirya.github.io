@@ -1,6 +1,4 @@
 ---
-# Yayına hazır olunca bu satırı sil:
-draft: true
 title: "6. Hafta – Koşullar"
 description: Eğer-ise ve eğer-değilse bloklarıyla karta karar verdiriyor, karşılaştırma yapıyoruz.
 sidebar:
@@ -79,6 +77,8 @@ Sonra bloklarla yazalım:
 
 ![Puan tabelası kodu: program başladığında puan 0; A'ya basınca puan 1 artar, B'ye basınca 1 azalır; her zaman bloğunda puan 5 veya fazlaysa mutlu yüz, 0'dan küçükse üzgün yüz, değilse puan gösterilir.](./puan-tabelasi-bloklari.svg)
 
+**Canlı dene:** <a href="https://makecode.microbit.org/_1LyFXKXjY2oP" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
+
 MicroPython'da `if`, `elif` (değilse eğer) ve `else` (değilse) kullanırız:
 
 ```python
@@ -117,16 +117,26 @@ Kart koşulları yukarıdan aşağı sırayla kontrol eder ve ilk doğru olanı 
 
 ## Mini quiz
 
-1. Koşulun cevabı ne olabilir?
-   a) Yalnızca bir sayı  b) Doğru ya da yanlış  c) Bir simge
-2. "eğer … ise / değilse" bloğunda koşul yanlışsa ne olur?
-   a) Hiçbir şey olmaz  b) değilse bölümü çalışır  c) Kart kapanır
-3. 6 ≥ 6 karşılaştırmasının sonucu nedir?
-   a) doğru  b) yanlış  c) 12
-4. Akış şemasında koşul hangi şekille gösterilir?
-   a) Oval  b) Dikdörtgen  c) Eşkenar dörtgen
-5. Koşul blokları hangi kategoridedir?
-   a) Mantık  b) Döngüler  c) Müzik
+1. Koşulun cevabı ne olabilir?  
+   a) Yalnızca bir sayı  
+   b) Doğru ya da yanlış  
+   c) Bir simge
+2. "eğer … ise / değilse" bloğunda koşul yanlışsa ne olur?  
+   a) Hiçbir şey olmaz  
+   b) değilse bölümü çalışır  
+   c) Kart kapanır
+3. 6 ≥ 6 karşılaştırmasının sonucu nedir?  
+   a) doğru  
+   b) yanlış  
+   c) 12
+4. Akış şemasında koşul hangi şekille gösterilir?  
+   a) Oval  
+   b) Dikdörtgen  
+   c) Eşkenar dörtgen
+5. Koşul blokları hangi kategoridedir?  
+   a) Mantık  
+   b) Döngüler  
+   c) Müzik
 
 <details>
 <summary>Cevap anahtarı</summary>

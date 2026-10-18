@@ -43,7 +43,9 @@ Kapının üstündeki sensör birinin yaklaştığını algılar → işlemci "k
 micro:bit'in üzerinde hem sensörler (butonlar, ışık, sıcaklık, hareket sensörü) hem işlemci hem de eylemciler (25 LED, hoparlör) bulunur. Yani küçük bir robot beyni gibidir!
 :::
 
-**Düşün:** Robot süpürge, akıllı saat ve trafik ışığı – her birinin sensörü, işlemcisi ve eylemcisi ne olabilir?
+<div class="etkinlik">
+<strong>Düşün:</strong> Robot süpürge, akıllı saat ve trafik ışığı – her birinin sensörü, işlemcisi ve eylemcisi ne olabilir?
+</div>
 
 ---
 
@@ -84,7 +86,9 @@ Başka örnekler: kek tarifi, okula gidiş yolu, çay demleme, bir oyunun kurall
 
 Karar adımında yol ikiye ayrılır: "Evet" cevabında önce şemsiye alınır, "Hayır" cevabında bu adım atlanır. İki yol da "Dışarı çık" adımında birleşir.
 
-**Etkinlik:** "Sabah okula hazırlanma" algoritmanın akış şemasını çiz. En az bir karar (◇) kullan. Örneğin: "Hava soğuk mu?"
+<div class="etkinlik">
+<strong>Etkinlik:</strong> "Sabah okula hazırlanma" algoritmanın akış şemasını çiz. En az bir karar (◇) kullan. Örneğin: "Hava soğuk mu?"
+</div>
 
 ---
 
@@ -148,7 +152,10 @@ Bilgisayara komut vermenin iki yaygın yolu vardır:
 
 **Aynı komut, iki farklı yazım (micro:bit ekranında kalp göstermek):**
 
-- Blok: **[ simge göster ❤ ]**
+- Blok:
+
+  ![program başladığında bloğunun içinde simgeyi göster kalp bloğu](./blok-simge-goster.png)
+
 - MicroPython:
 
 ```python
@@ -173,16 +180,26 @@ Bu yıl önce MakeCode bloklarıyla başlayacağız, sonra aynı işleri MicroPy
 
 ## Mini quiz
 
-1. Robotun çevreden bilgi toplayan parçası hangisidir?
-   a) Eylemci  b) Sensör  c) İşlemci
-2. Akış şemasında karar adımı hangi şekille gösterilir?
-   a) Oval  b) Dikdörtgen  c) Eşkenar dörtgen
-3. Bir işi yapmak için izlenen sıralı adımlara ne denir?
-   a) Algoritma  b) Sensör  c) Debug
-4. Koddaki hatayı bulup düzeltme işine ne denir?
-   a) Derleme  b) Hata ayıklama (debug)  c) Kaydetme
-5. Aşağıdakilerden hangisi metin tabanlı bir dildir?
-   a) Scratch  b) MakeCode blokları  c) Python
+1. Robotun çevreden bilgi toplayan parçası hangisidir?  
+   a) Eylemci  
+   b) Sensör  
+   c) İşlemci
+2. Akış şemasında karar adımı hangi şekille gösterilir?  
+   a) Oval  
+   b) Dikdörtgen  
+   c) Eşkenar dörtgen
+3. Bir işi yapmak için izlenen sıralı adımlara ne denir?  
+   a) Algoritma  
+   b) Sensör  
+   c) Debug
+4. Koddaki hatayı bulup düzeltme işine ne denir?  
+   a) Derleme  
+   b) Hata ayıklama (debug)  
+   c) Kaydetme
+5. Aşağıdakilerden hangisi metin tabanlı bir dildir?  
+   a) Scratch  
+   b) MakeCode blokları  
+   c) Python
 
 <details>
 <summary>Cevap anahtarı</summary>

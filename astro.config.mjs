@@ -19,11 +19,24 @@ export default defineConfig({
 			},
 			social: [
 				{ icon: 'youtube', label: 'YouTube', href: 'https://www.youtube.com/@kod_turozirya' },
+				{ icon: 'instagram', label: 'Instagram', href: 'https://www.instagram.com/kod_turozirya' },
 			],
 			customCss: ['./src/styles/makecode-renkleri.css'],
 			components: {
 				PageTitle: './src/components/KonuBasligi.astro',
+				SiteTitle: './src/components/SiteBasligi.astro',
 			},
+			head: [
+				{ tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.googleapis.com' } },
+				{ tag: 'link', attrs: { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true } },
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'stylesheet',
+						href: 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&family=Lexend:wght@400;600;700&display=swap',
+					},
+				},
+			],
 			sidebar: [
 				{
 					label: 'micro:bit ile Robotik Kodlama',

@@ -35,7 +35,9 @@ micro:bit ekranı 5 sütun ve 5 satırdan oluşan **25 LED**'den yapılmıştır
 Bilgisayarlar saymaya genellikle 0'dan başlar. Bu yüzden ilk sütun x = 0, son sütun x = 4'tür.
 :::
 
-**Bilgisayarsız etkinlik – Piksel oyunu:** Kareli kâğıda 5x5'lik bir kare çiz. Arkadaşın sana koordinatlar söylesin ("x = 2, y = 0"), sen o kareyi boya. Sonunda hangi resim çıktı?
+<div class="etkinlik">
+<strong>Bilgisayarsız etkinlik – Piksel oyunu:</strong> Kareli kâğıda 5x5'lik bir kare çiz. Arkadaşın sana koordinatlar söylesin ("x = 2, y = 0"), sen o kareyi boya. Sonunda hangi resim çıktı?
+</div>
 
 Tek bir LED'i yakmak için **LED** kategorisindeki **led yak** bloğunu kullanırız: x ve y değerlerini yazarız, o LED yanar.
 
@@ -51,7 +53,9 @@ Tek bir LED'i yakmak için **LED** kategorisindeki **led yak** bloğunu kullanı
 
 Hazır simgeler yetmezse **led'leri göster** bloğuyla kendi resmini çizersin. Bloktaki 25 kareden yanmasını istediklerine tıkla; tıklanan kareler kırmızı olur.
 
-**Etkinlik:** Önce kareli kâğıtta bir simge tasarla (güneş, ağaç, baş harfin…), sonra **led'leri göster** bloğuyla ekrana aktar.
+<div class="etkinlik">
+<strong>Etkinlik:</strong> Önce kareli kâğıtta bir simge tasarla (güneş, ağaç, baş harfin…), sonra <strong>led'leri göster</strong> bloğuyla ekrana aktar.
+</div>
 
 ---
 
@@ -84,6 +88,8 @@ Kart açıldığında "Merhaba" yazsın, sonra sürekli olarak adını ve kendi 
 
 ![İsim kartı kodu: program başladığında Merhaba yazısı ve mutlu simge; her zaman bloğunda isim yazısı, kendi çizimin, duraklat, ekranı temizle ve duraklat blokları.](./isim-karti-bloklari.svg)
 
+**Canlı dene:** <a href="https://makecode.microbit.org/_ELP3HDU8Xbx4" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
+
 MicroPython'da aynı fikir şöyle yazılır:
 
 ```python
@@ -115,16 +121,26 @@ while True:
 
 ## Mini quiz
 
-1. micro:bit ekranında kaç satır ve kaç sütun vardır?
-   a) 4 satır, 4 sütun  b) 5 satır, 5 sütun  c) 6 satır, 6 sütun
-2. Sol üst köşedeki LED'in koordinatı nedir?
-   a) x = 1, y = 1  b) x = 0, y = 0  c) x = 5, y = 5
-3. Kendi resmimizi çizmek için hangi bloğu kullanırız?
-   a) led'leri göster  b) dizgi göster  c) sayıyı göster
-4. 1000 ms kaç saniyedir?
-   a) 10 saniye  b) 1 saniye  c) 100 saniye
-5. Art arda gösterilen resimlerle oluşturulan harekete ne denir?
-   a) Koordinat  b) Animasyon  c) Değişken
+1. micro:bit ekranında kaç satır ve kaç sütun vardır?  
+   a) 4 satır, 4 sütun  
+   b) 5 satır, 5 sütun  
+   c) 6 satır, 6 sütun
+2. Sol üst köşedeki LED'in koordinatı nedir?  
+   a) x = 1, y = 1  
+   b) x = 0, y = 0  
+   c) x = 5, y = 5
+3. Kendi resmimizi çizmek için hangi bloğu kullanırız?  
+   a) led'leri göster  
+   b) dizgi göster  
+   c) sayıyı göster
+4. 1000 ms kaç saniyedir?  
+   a) 10 saniye  
+   b) 1 saniye  
+   c) 100 saniye
+5. Art arda gösterilen resimlerle oluşturulan harekete ne denir?  
+   a) Koordinat  
+   b) Animasyon  
+   c) Değişken
 
 <details>
 <summary>Cevap anahtarı</summary>

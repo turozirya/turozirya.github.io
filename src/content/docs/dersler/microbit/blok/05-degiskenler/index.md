@@ -1,6 +1,4 @@
 ---
-# Yayına hazır olunca bu satırı sil:
-draft: true
 title: "5. Hafta – Değişkenler"
 description: Değişken oluşturuyor, değerini artırıp azaltıyor ve micro:bit ile bir sayaç yapıyoruz.
 sidebar:
@@ -39,7 +37,9 @@ Bir oyunda puanı, bir koşuda adım sayısını ya da sınıftaki öğrenci say
 | sıcaklık | 24 | Hava ısındıkça artar |
 | kalan süre | 30 | Her saniye azalır |
 
-**Bilgisayarsız etkinlik – Kutu oyunu:** Bir bardağa "puan" yaz. Öğretmen soru sorsun; doğru bilen grubun bardağına bir fasulye atılsın. Bardağın adı hep "puan" kalır ama içindeki fasulye sayısı değişir. İşte değişken budur!
+<div class="etkinlik">
+<strong>Bilgisayarsız etkinlik – Kutu oyunu:</strong> Bir bardağa "puan" yaz. Öğretmen soru sorsun; doğru bilen grubun bardağına bir fasulye atılsın. Bardağın adı hep "puan" kalır ama içindeki fasulye sayısı değişir. İşte değişken budur!
+</div>
 
 ---
 
@@ -72,6 +72,8 @@ Değişkene içinde ne sakladığını anlatan bir ad ver. "a" yerine "puan" yaz
 A butonuna her basışta 1 artan, B butonuna basınca sıfırlanan bir sayaç yapalım. Kantinde sıra sayarken, oyunda tur tutarken ya da tekrar sayarken kullanabilirsin.
 
 ![Sayaç kodu: program başladığında sayaç değeri 0 yapılır ve gösterilir; A tuşuna basıldığında sayaç 1 artırılır ve gösterilir; B tuşuna basıldığında sayaç 0 yapılır ve gösterilir.](./sayac-bloklari.svg)
+
+**Canlı dene:** <a href="https://makecode.microbit.org/_Ch61TaP5DaU4" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
 
 MicroPython'da değişken oluşturmak için adını yazıp **=** ile değer veririz:
 
@@ -107,16 +109,26 @@ Bu bir matematik eşitliği değildir. "Kutudaki değeri al, 1 ekle, sonucu tekr
 
 ## Mini quiz
 
-1. Değişken nedir?
-   a) İçinde değer saklayan, adı olan kutu  b) Kartın bir parçası  c) Bir simge
-2. Değişkene ilk değerini genellikle hangi blokta veririz?
-   a) her zaman  b) program başladığında  c) A tuşuna basıldığında
-3. "sayac değişkenini 1 değiştir" bloğu ne yapar?
-   a) Sayacı 1 yapar  b) Sayacı 1 artırır  c) Sayacı siler
-4. Hangisi daha iyi bir değişken adıdır?
-   a) x  b) puan  c) abc
-5. sayac 4 iken "sayac değişkenini −1 değiştir" çalışırsa sayaç kaç olur?
-   a) 5  b) −1  c) 3
+1. Değişken nedir?  
+   a) İçinde değer saklayan, adı olan kutu  
+   b) Kartın bir parçası  
+   c) Bir simge
+2. Değişkene ilk değerini genellikle hangi blokta veririz?  
+   a) her zaman  
+   b) program başladığında  
+   c) A tuşuna basıldığında
+3. "sayac değişkenini 1 değiştir" bloğu ne yapar?  
+   a) Sayacı 1 yapar  
+   b) Sayacı 1 artırır  
+   c) Sayacı siler
+4. Hangisi daha iyi bir değişken adıdır?  
+   a) x  
+   b) puan  
+   c) abc
+5. sayac 4 iken "sayac değişkenini −1 değiştir" çalışırsa sayaç kaç olur?  
+   a) 5  
+   b) −1  
+   c) 3
 
 <details>
 <summary>Cevap anahtarı</summary>

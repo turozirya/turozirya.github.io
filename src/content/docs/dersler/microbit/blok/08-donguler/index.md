@@ -1,6 +1,4 @@
 ---
-# Yayına hazır olunca bu satırı sil:
-draft: true
 title: "8. Hafta – Döngüler"
 description: Her zaman, tekrarla ve olduğunda döngüleriyle tekrar eden işleri kısaltıyor; LED animasyonları ve geri sayım yapıyoruz.
 sidebar:
@@ -64,9 +62,13 @@ Bir şarkının nakaratını tekrar söyleriz, egzersizde "10 kez zıpla" deriz.
 
 **Olduğunda:** B'ye basınca 5'ten geriye saysın; sayı 0'dan büyük oldukça sayıyı gösterip 1 saniye beklesin ve sayıyı 1 azaltsın. Döngü bitince onay simgesi göstersin.
 
-![Tekrarla örneği: A'ya basınca kare ve küçük kare simgeleri 3 kez gösterilir, sonra ekran temizlenir. Olduğunda örneği: B'ye basınca sayı 5 yapılır; sayı 0'dan büyük oldukça sayı gösterilir, 1 saniye beklenir ve sayı 1 azaltılır; sonunda evet simgesi gösterilir.](./dongu-bloklari.svg)
+![Tekrarla örneği: A'ya basınca kare ve küçük kare simgeleri 3 kez gösterilir, sonra ekran temizlenir. Olduğunda örneği: B'ye basınca sayı 5 yapılır; sayı 0'dan büyük oldukça sayı gösterilir, 1 saniye beklenir ve sayı 1 azaltılır; sonunda evet simgesi gösterilir.](./dongu-bloklari.png)
 
-**Düşün:** Geri sayımda "sayı değişkenini −1 değiştir" bloğunu unutursak ne olur? Sayı hiç azalmaz, koşul hep doğru kalır ve döngü hiç bitmez. Buna **sonsuz döngü** denir.
+**Canlı dene:** <a href="https://makecode.microbit.org/_MEKRT63Wj0Ru" target="_blank" rel="noopener noreferrer">Bu projeyi MakeCode'da aç</a> ve simülatörde çalıştığını gör.
+
+<div class="etkinlik">
+<strong>Düşün:</strong> Geri sayımda "sayı değişkenini −1 değiştir" bloğunu unutursak ne olur? Sayı hiç azalmaz, koşul hep doğru kalır ve döngü hiç bitmez. Buna <strong>sonsuz döngü</strong> denir.
+</div>
 
 MicroPython'da `for` (belli sayıda) ve `while` (koşul doğru oldukça) döngüleri vardır:
 
@@ -106,16 +108,26 @@ Python'da döngünün içindeki satırlar **girintiyle** (satır başındaki bo�
 
 ## Mini quiz
 
-1. Döngü ne işe yarar?
-   a) Adımları tekrar tekrar çalıştırır  b) Rastgele sayı seçer  c) Değişken oluşturur
-2. "10 kez zıpla" komutu hangi döngüye benzer?
-   a) her zaman  b) tekrarla  c) olduğunda
-3. "olduğunda" döngüsü ne zaman durur?
-   a) Hiç durmaz  b) Koşul yanlış olunca  c) 4 kez tekrar edince
-4. Geri sayımda sayıyı azaltmayı unutursak ne olur?
-   a) Döngü hemen biter  b) Sonsuz döngü olur  c) Kart kapanır
-5. Hangi blok aslında bir döngüdür?
-   a) program başladığında  b) her zaman  c) simgeyi göster
+1. Döngü ne işe yarar?  
+   a) Adımları tekrar tekrar çalıştırır  
+   b) Rastgele sayı seçer  
+   c) Değişken oluşturur
+2. "10 kez zıpla" komutu hangi döngüye benzer?  
+   a) her zaman  
+   b) tekrarla  
+   c) olduğunda
+3. "olduğunda" döngüsü ne zaman durur?  
+   a) Hiç durmaz  
+   b) Koşul yanlış olunca  
+   c) 4 kez tekrar edince
+4. Geri sayımda sayıyı azaltmayı unutursak ne olur?  
+   a) Döngü hemen biter  
+   b) Sonsuz döngü olur  
+   c) Kart kapanır
+5. Hangi blok aslında bir döngüdür?  
+   a) program başladığında  
+   b) her zaman  
+   c) simgeyi göster
 
 <details>
 <summary>Cevap anahtarı</summary>

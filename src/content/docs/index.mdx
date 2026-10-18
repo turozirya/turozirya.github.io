@@ -3,9 +3,10 @@ title: kod_turozirya
 description: Ortaokul robotik kodlama kulübü için micro:bit dersleri
 template: splash
 hero:
-  tagline: micro:bit ile robotik kodlamayı adım adım öğren!
+  title: '<img src="/kod-turozirya-logo.svg" alt="" width="120" height="120" style="height:1.3em;width:auto;vertical-align:-0.25em;margin-right:0.3em;border-radius:0.18em;display:inline-block;" /><span style="font-family:JetBrains Mono, monospace;font-weight:800;">kod</span><span style="font-family:JetBrains Mono, monospace;font-weight:800;color:#FF8A1F;">_</span><span style="font-family:Lexend, sans-serif;">turozirya</span>'
+  tagline: Robotik kodlamayı adım adım öğren!
   actions:
-    - text: Derslere başla
+    - text: Derslere Başla
       link: /dersler/microbit/
       icon: right-arrow
 ---
@@ -13,7 +14,7 @@ hero:
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid>
-	<Card title="micro:bit ile Robotik Kodlama" icon="rocket">
+	<Card title={`<img src="/microbit-logo.svg" alt="" width="40" height="25" style="display:inline-block;vertical-align:-7px;margin-right:0.5rem;border-radius:4px;max-width:none;height:25px;" />micro:bit ile Robotik Kodlama`}>
 		28 hafta: önce MakeCode bloklarıyla, sonra MicroPython ile kodlama.
 		[Derse git →](/dersler/microbit/)
 	</Card>

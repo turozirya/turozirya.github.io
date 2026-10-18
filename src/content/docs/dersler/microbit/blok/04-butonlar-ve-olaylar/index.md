@@ -1,6 +1,4 @@
 ---
-# Yayına hazır olunca bu satırı sil:
-draft: true
 title: "4. Hafta – Butonlar ve Olaylar"
 description: A ve B butonlarıyla karta komut veriyor, olay kavramını ve girdi-çıktı ilişkisini öğreniyoruz.
 sidebar:
@@ -70,7 +68,7 @@ micro:bit'te de durum aynıdır: **A tuşuna basıldığında** ne yapacağını
 
 A butonuna basınca gülen yüz, B butonuna basınca üzgün yüz, ikisine birden basınca kalp gösteren bir kart yapalım.
 
-![Duygu kartı kodu: A tuşuna basıldığında mutlu simge, B tuşuna basıldığında üzgün simge, A+B tuşuna basıldığında kalp simgesi gösterilir.](./duygu-karti-bloklari.svg)
+![Duygu kartı kodu: A tuşuna basıldığında mutlu simge, B tuşuna basıldığında üzgün simge, A+B tuşuna basıldığında kalp simgesi gösterilir.](./duygu-karti-bloklari.png)
 
 1. **Girdi** kategorisinden **A tuşuna basıldığında** bloğunu kod alanına sürükle.
 2. İçine **Temel** kategorisinden **simgeyi göster** koy ve mutlu yüzü seç.
@@ -99,6 +97,8 @@ micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **on logo p
 
 **Örnek:** Logoya dokununca ekranı temizle; böylece duygu kartı "sıfırlanmış" olur.
 
+![on logo pressed bloğunun içinde ekranı temizle bloğu.](./dokunmatik-logo-ornegi.png)
+
 ---
 
 ## Kendini dene
@@ -112,16 +112,26 @@ micro:bit v2'nin üstündeki altın renkli logo dokunmayı algılar. **on logo p
 
 ## Mini quiz
 
-1. Butona basılması, olayların hangisine bir örnektir?
-   a) Girdi  b) Çıktı  c) İşlemci
-2. Olay blokları hangi kategoridedir?
-   a) Temel  b) Girdi  c) Müzik
-3. A+B olayı ne zaman çalışır?
-   a) Önce A'ya, sonra B'ye basınca  b) İki butona birlikte basınca  c) Kart açılınca
-4. Duygu kartında ekran hangi robot parçasıdır?
-   a) Sensör  b) İşlemci  c) Eylemci
-5. Dokunmatik logo hangi micro:bit sürümünde vardır?
-   a) Yalnızca v2  b) Yalnızca v1  c) Hiçbirinde
+1. Butona basılması, olayların hangisine bir örnektir?  
+   a) Girdi  
+   b) Çıktı  
+   c) İşlemci
+2. Olay blokları hangi kategoridedir?  
+   a) Temel  
+   b) Girdi  
+   c) Müzik
+3. A+B olayı ne zaman çalışır?  
+   a) Önce A'ya, sonra B'ye basınca  
+   b) İki butona birlikte basınca  
+   c) Kart açılınca
+4. Duygu kartında ekran hangi robot parçasıdır?  
+   a) Sensör  
+   b) İşlemci  
+   c) Eylemci
+5. Dokunmatik logo hangi micro:bit sürümünde vardır?  
+   a) Yalnızca v2  
+   b) Yalnızca v1  
+   c) Hiçbirinde
 
 <details>
 <summary>Cevap anahtarı</summary>

@@ -5,6 +5,19 @@
 	--mc-mor: #6633cc;
 	--mc-mavi: #3454d1;
 
+	/* Yazı boyutları: Starlight varsayılanından biraz daha büyük */
+	--sl-text-2xs: 0.8125rem; /* 13px */
+	--sl-text-xs: 0.9375rem; /* 15px */
+	--sl-text-sm: 1rem; /* 16px */
+	--sl-text-base: 1.0625rem; /* 17px */
+	--sl-text-lg: 1.1875rem; /* 19px */
+	--sl-text-xl: 1.3125rem; /* 21px */
+	--sl-text-2xl: 1.625rem; /* 26px */
+	--sl-text-3xl: 1.9375rem; /* 31px */
+	--sl-text-4xl: 2.3125rem; /* 37px */
+	--sl-text-5xl: 2.8125rem; /* 45px */
+	--sl-text-6xl: 4.25rem; /* 68px */
+
 	/* Koyu tema */
 	--sl-color-accent-low: #2a1859;
 	--sl-color-accent: #8f66e8;
@@ -48,14 +61,100 @@ header.header .site-title {
 	color: #ffffff;
 }
 
-/* Kod blokları ve tablolar için MakeCode editör zemini (açık tema) */
-:root[data-theme='light'] .sl-markdown-content table th {
-	background-color: #ecf0f1;
+/* Tablolar: MakeCode renkleriyle canlı başlık, zebra satır ve üzerine gelince vurgu */
+.sl-markdown-content table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-radius: 0.6rem;
+	overflow: hidden;
+	border: 1px solid var(--sl-color-gray-5);
+}
+.sl-markdown-content table th {
+	background: linear-gradient(135deg, var(--mc-mor), var(--mc-mavi));
+	color: #ffffff;
+	font-weight: 700;
+	border: none;
+}
+.sl-markdown-content table td {
+	border: none;
+	border-top: 1px solid var(--sl-color-gray-6);
+}
+.sl-markdown-content table th,
+.sl-markdown-content table td {
+	padding: 0.5rem 0.9rem;
+}
+:root[data-theme='light'] .sl-markdown-content table tr:nth-child(even) td {
+	background-color: #f3eefe;
+}
+:root:not([data-theme='light']) .sl-markdown-content table tr:nth-child(even) td {
+	background-color: rgba(143, 102, 232, 0.1);
+}
+.sl-markdown-content table tr:hover td {
+	background-color: rgba(102, 51, 204, 0.16);
 }
 
-/* Ders görselleri */
+/* Ders görselleri: gerçek MakeCode ekran görüntüleri şeffaf arka planlı olduğu için
+   koyu temada bloklar havada kalmasın diye beyaz zemin verilir. */
 .sl-markdown-content img {
 	border-radius: 0.5rem;
+	background-color: #ffffff;
+}
+
+/* 1. hafta: blok/metin karşılaştırmasındaki MakeCode ekran görüntüsü, yanındaki
+   kod bloğuyla orantılı görünsün diye küçültülür. */
+.sl-markdown-content img[src*='blok-simge-goster'] {
+	max-width: 280px;
+	height: auto;
+}
+
+/* 4. hafta: dokunmatik logo örneği ekran görüntüsü tek blok içerdiği için küçük tutulur. */
+.sl-markdown-content img[src*='dokunmatik-logo-ornegi'] {
+	max-width: 280px;
+	height: auto;
+}
+
+/* 7. hafta: gerçek MakeCode ekran görüntüleri, içeriklerine göre uygun boyutta. */
+.sl-markdown-content img[src*='/salla'] {
+	max-width: 260px;
+	height: auto;
+}
+.sl-markdown-content img[src*='/zar'] {
+	max-width: 480px;
+	height: auto;
+}
+.sl-markdown-content img[src*='/tkm'] {
+	max-width: 520px;
+	height: auto;
+}
+
+/* 10. hafta: su terazisi ekran görüntüsü dikey (portre) olduğu için daraltılıp ortalanır. */
+.sl-markdown-content img[src*='su-terazisi'] {
+	display: block;
+	max-width: 320px;
+	height: auto;
+	margin: 1rem auto;
+}
+
+/* Etkinlik / Bilgisayarsız etkinlik kutuları: diğer uyarı kutularından (tip/caution/note)
+   ayırt edilsin diye turkuaz renkte, çerçeveli ve farklı arka planda gösterilir. */
+.sl-markdown-content .etkinlik {
+	border: 1px solid var(--kt-turkuaz, #0fb5a8);
+	border-inline-start-width: 0.3rem;
+	border-radius: 0.4rem;
+	padding: 0.9rem 1.1rem;
+	margin: 1.25rem 0;
+}
+.sl-markdown-content .etkinlik strong:first-of-type {
+	color: #0a8276;
+}
+:root[data-theme='light'] .sl-markdown-content .etkinlik {
+	background-color: #e3faf7;
+}
+:root:not([data-theme='light']) .sl-markdown-content .etkinlik {
+	background-color: rgba(15, 181, 168, 0.14);
+}
+:root:not([data-theme='light']) .sl-markdown-content .etkinlik strong:first-of-type {
+	color: #4fe0cf;
 }
 
 /* Tablolar sayfa genişliğini doldursun; dar ekranda Starlight'ın yana kaydırması kalsın */

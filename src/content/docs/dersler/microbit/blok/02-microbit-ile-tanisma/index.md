@@ -48,7 +48,9 @@ micro:bit, avuç içi büyüklüğünde, programlanabilen küçük bir bilgisaya
 Kartta ayrı bir ışık sensörü göremezsin, çünkü LED'ler ışığı ölçmek için de kullanılır. Sıcaklık sensörü ise işlemcinin içine gizlenmiştir!
 :::
 
-**Etkinlik – Kartı keşfet:** Kartını eline al ve görseldeki 11 parçayı kartın üzerinde bul. Her parçayı bulduğunda sensör mü, işlemci mi, eylemci mi olduğunu arkadaşına söyle.
+<div class="etkinlik">
+<strong>Etkinlik – Kartı keşfet:</strong> Kartını eline al ve görseldeki 11 parçayı kartın üzerinde bul. Her parçayı bulduğunda sensör mü, işlemci mi, eylemci mi olduğunu arkadaşına söyle.
+</div>
 
 :::caution[Kartı korumak için]
 Kartı kenarlarından tut. Pinleri metal yüzeylere değdirme ve kartı ıslak elle tutma.
@@ -58,9 +60,9 @@ Kartı kenarlarından tut. Pinleri metal yüzeylere değdirme ve kartı ıslak e
 
 ## 2. MakeCode'u açalım
 
-Kodlarımızı **makecode.microbit.org** adresinde yazacağız. Kurulum gerekmez, tarayıcıda çalışır.
+Kodlarımızı **<a href="https://makecode.microbit.org" target="_blank" rel="noopener noreferrer">makecode.microbit.org</a>** adresinde yazacağız. Kurulum gerekmez, tarayıcıda çalışır.
 
-1. Tarayıcıda **makecode.microbit.org** adresini aç.
+1. Tarayıcıda **<a href="https://makecode.microbit.org" target="_blank" rel="noopener noreferrer">makecode.microbit.org</a>** adresini aç.
 2. Dil Türkçe değilse sağ üstteki dişli simgesinden **Dil** seçeneğini bulup **Türkçe**'yi seç.
 3. **Yeni Proje** düğmesine bas ve projene bir ad ver (örneğin "Kalp").
 
@@ -118,7 +120,9 @@ Simülatör, kartı bilgisayar ekranında taklit eder. Kartın olmadığı yerde
 - Simülatördeki A ve B butonlarına fareyle tıklayabilirsin.
 - Kare düğme simülatörü durdurur, dönen ok baştan başlatır.
 
-**Altın kural:** Kodu karta yüklemeden önce mutlaka simülatörde dene. Hatayı ekranda bulmak daha kolaydır.
+:::caution[Altın kural]
+Kodu karta yüklemeden önce mutlaka simülatörde dene. Hatayı ekranda bulmak daha kolaydır.
+:::
 
 ---
 
@@ -159,16 +163,26 @@ Kodu yükledikten sonra kabloyu çıkarıp pil yuvasını takarsan kart kodu ça
 
 ## Mini quiz
 
-1. micro:bit ekranında kaç LED vardır?
-   a) 16  b) 25  c) 36
-2. Kodu kartsız denemek için ne kullanırız?
-   a) Simülatör  b) Pil yuvası  c) Pinler
-3. **program başladığında** bloğundaki kod ne zaman çalışır?
-   a) Sürekli tekrar eder  b) Kart açıldığında bir kez  c) Butona basınca
-4. Aşağıdakilerden hangisi bir eylemcidir?
-   a) A butonu  b) Hoparlör  c) Hareket sensörü
-5. Kodu karta yüklemek için kart bilgisayara nasıl bağlanır?
-   a) USB kablo  b) HDMI kablo  c) Kulaklık kablosu
+1. micro:bit ekranında kaç LED vardır?  
+   a) 16  
+   b) 25  
+   c) 36
+2. Kodu kartsız denemek için ne kullanırız?  
+   a) Simülatör  
+   b) Pil yuvası  
+   c) Pinler
+3. **program başladığında** bloğundaki kod ne zaman çalışır?  
+   a) Sürekli tekrar eder  
+   b) Kart açıldığında bir kez  
+   c) Butona basınca
+4. Aşağıdakilerden hangisi bir eylemcidir?  
+   a) A butonu  
+   b) Hoparlör  
+   c) Hareket sensörü
+5. Kodu karta yüklemek için kart bilgisayara nasıl bağlanır?  
+   a) USB kablo  
+   b) HDMI kablo  
+   c) Kulaklık kablosu
 
 <details>
 <summary>Cevap anahtarı</summary>
